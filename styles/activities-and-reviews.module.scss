@@ -1,0 +1,4469 @@
+.generalBox {
+    margin-top: 12rem;
+.commenterImg {
+                width: 40px;
+            }
+    .title {}
+
+    .boldTitle {
+        font-weight: bold;
+    }
+
+    .paragraph1 {
+        font-size: 14px;
+        margin-top: 2rem;
+    }
+
+    .paragraph2 {
+        font-size: 12px;
+        margin-bottom: 3rem; 
+    }
+
+    .traineesCards {
+
+        margin: 2rem;
+        box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+
+        .MuiCardContent-root {
+            padding: 0;
+        }
+
+        .traineesArtImg {
+            width: 100%;
+        }
+    }
+
+    .infoBox {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        align-items: center;
+
+        .traineeImg {
+            width: 50px;
+        }
+
+        .traineeName {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-size: 12px;
+            font-weight: bold;
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .artType {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+    }
+
+    .courseGeneralRating {
+        margin-top: 4rem;
+        margin-right: 2rem;
+        font-size: 18px;
+        font-weight: bold
+    }
+
+    .ratingBox {
+        margin-right: 2rem;
+        display: flex;
+        align-items: center;
+
+        .rating {
+            font-size: 40px;
+            font-weight: bold
+        }
+    }
+
+    .starsBox {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        font-weight: bold;
+
+        .starsIcon {
+            font-size: 30px;
+            color: #FFA120
+        }
+
+        .starsIconGray {
+            font-size: 30px;
+            color: lightgrey
+        }
+
+        .traineesReview {
+            font-size: 10px;
+            font-weight: bold
+        }
+    }
+
+    .arrowsBox {
+        margin-left: 1rem;
+    }
+
+    .slider1Cards {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+        box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+        .detailsBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .reviewerImg {
+                width: 50px;
+            }
+
+            .nameAndRatingBox {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .reviewerStars {
+                    font-size: 14px;
+                    color: #FFA120
+                }
+
+                .reviewerStarsGray {
+                    font-size: 14px;
+                    color: lightgray
+                }
+
+                .activeState {
+                    font-size: 12px;
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+        .review {
+            font-size: 12px;
+            margin-right: 1rem;
+        }
+    }
+
+    .courseSubscriber {
+        margin-top: 6rem;
+        margin-right: 2rem;
+        font-size: 20px;
+        font-weight: bold
+    }
+
+    .ownThisCourses {
+        margin-right: 2rem;
+        font-size: 24px;
+        font-weight: bold
+    }
+
+    .slider2ArrowsBox {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+
+        .showMoreBtn {
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+            margin-left: 3rem;
+            padding: 10px 15px;
+            box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+            border-radius: 23px;
+            cursor: pointer
+        }
+    }
+
+    .slider2Box {
+        direction: rtl;
+        margin-left: -1rem;
+
+        .slider2Cards {
+            width: 100%;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .MuiCardContent-root {
+                padding: 0;
+            }
+
+            .slider2Img {
+                width: 200px;
+            }
+
+            .floatingChip {
+                background-color: #7B2CBF;
+                color: white;
+                border-radius: 10px;
+                position: absolute;
+                top: 15%;
+                left: 9%;
+                font-size: 8px;
+                padding: 1.8px 5px
+            }
+
+            .slider2DetailsBox {
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid #F3F3F3;
+                margin-top: -1rem;
+
+                .slider2SmallImg {
+                    width: 40px;
+                    margin-top: 1rem;
+
+                }
+
+                .slider2Name {
+                    font-size: 8px;
+                    font-weight: bold
+                }
+
+                .teachingDrawing {
+                    margin-right: 1rem;
+                    font-size: 10px;
+                    font-weight: 800;
+                    margin-top: 1rem;
+
+                }
+            }
+        }
+    }
+
+    .purchaseBox {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .slider2Price {
+            margin-right: 1rem;
+            color: black;
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        .slider2Currency {
+            color: black;
+            font-weight: bold;
+            font-size: 9px;
+        }
+
+        .iconBtn {
+
+            border: 0;
+            outline: 0;
+            font-weight: 200;
+            background-color: #F3F3F3;
+            color: black;
+            width: fit-content;
+            min-width: fit-content;
+            box-shadow: 0;
+            border-radius: 10px;
+
+            &:hover {
+                border: 0;
+                outline: 0;
+                background-color: #F3F3F3;
+            }
+        }
+
+        .icon {
+            font-size: 12px;
+        }
+    }
+
+    .redAdBox {
+        display: flex;
+        align-items: center;
+        padding: 40px 30px;
+        margin-top: 5rem;
+        height: 50px;
+        background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+        .adImg {
+            height: 170%
+        }
+
+        .highQCourses {
+            color: white;
+            margin-right: 5rem;
+            font-size: 16px;
+            font-weight: 800;
+
+            .highQCourses2ndParagraph {
+                color: white;
+                font-size: 11px;
+            }
+
+            .contactUsBtn {
+                width: fit-content;
+                margin-top: 1rem;
+                font-size: 10px;
+                color: white;
+                display: flex;
+                align-items: center;
+                margin-left: 3rem;
+                padding: 5px 12px;
+                border: 1px solid white;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                cursor: pointer;
+
+                .contactUsBtnIcon {
+                    font-size: 16px;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+
+    .commentsBox {
+        margin-top: 5rem;
+
+        .comments {
+            margin-bottom: 2rem;
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .textArea {
+            position: relative;
+            max-width: 100%;
+            width: 100%;
+            // height:400px;
+            direction: rtl;
+            border: 0;
+            outline: 0;
+
+            .sendBtn {
+
+                margin-bottom: 3rem;
+                position: absolute;
+                bottom: -17px;
+                right: -4px;
+                background-color: #AF151F;
+                color: white;
+                margin-right: 2rem;
+                font-size: 12px;
+
+                &:hover {
+                    background-color: #AF151F;
+                }
+            }
+
+            .sendIcon {
+                transform: rotate(180deg);
+                font-size: 12px;
+            }
+        }
+    }
+
+    .repliesInfoBoxs {
+        margin-top: 2rem;
+        margin-right: 8rem;
+        display: flex;
+        align-items: start;
+        padding-top: 2rem;
+        border-bottom: 1px solid rgb(245, 245, 245);
+    }
+
+    .commentsInfoBox {
+        margin-top: 2rem;
+        margin-right: 2rem;
+        display: flex;
+        align-items: start;
+        padding-top: 2rem;
+        border-bottom: 1px solid rgb(245, 245, 245);
+
+        .commenterImg {
+            width: 40px;
+        }
+
+        .commenterInfoBox {
+            margin-right: 1rem;
+            font-size: 12px;
+            font-weight: bold
+        }
+
+        .flag {
+            width: 15px;
+        }
+
+        .date {
+            font-size: 12px;
+            margin-right: 1rem;
+        }
+
+        .traineeChip {
+            font-size: 9px;
+            height: 18px;
+            border-radius: 8px;
+            margin-right: 1rem;
+        }
+
+        .comment {
+            font-size: 12px;
+        }
+
+        .likesAndReplies {
+            margin-bottom: 2rem;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+
+            .likeIcon {
+                color: #CF151F;
+                font-size: 14px;
+                margin-left: 1rem;
+            }
+
+            .commentIcon {
+                color: lightgray;
+                margin-right: 2rem;
+                font-size: 14px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+@media(max-width:1288px){
+    .toBeRemoved{
+        display:none;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {}
+
+        .boldTitle {
+            font-weight: bold;
+        }
+
+        .paragraph1 {
+            font-size: 14px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 12px;
+            margin-bottom: 3rem;
+        }
+
+        .traineesCards {
+
+            margin: 2rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+            .MuiCardContent-root {
+                padding: 0;
+            }
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 50px;
+            }
+
+            .traineeName {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 9px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:1100px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 22px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .paragraph1 {
+            font-size: 14px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 12px;
+            margin-bottom: 3rem;
+        }
+
+        .traineesCards {
+
+            margin: 2rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+            .MuiCardContent-root {
+                padding: 0;
+            }
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1.2rem;
+            margin-bottom: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 50px;
+            }
+
+            .traineeName {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 9px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:1000px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 22px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .paragraph1 {
+            font-size: 13px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 12px;
+            margin-bottom: 3rem;
+        }
+
+        .traineesCards {
+            width: 84%;
+            margin: 2rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1rem;
+            margin-bottom: 1.2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 50px;
+            }
+
+            .traineeName {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 9px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:900px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 22px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .paragraph1 {
+            font-size: 13px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 12px;
+            margin-bottom: 3rem;
+        }
+
+        .traineesCards {
+            width: 84%;
+            margin: 2rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1rem;
+            margin-bottom: 1.2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 50px;
+            }
+
+            .traineeName {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 9px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:800px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 20px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .paragraph1 {
+            font-size: 12px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 11px;
+            margin-bottom: 2rem;
+        }
+
+        .traineesCards {
+            width: 84%;
+            margin: 2rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1rem;
+            margin-bottom: 1.2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 50px;
+            }
+
+            .traineeName {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 9px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:700px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 18px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .paragraph1 {
+            font-size: 11px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .traineesCards {
+            width: 84%;
+            margin: 2rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1rem;
+            margin-bottom: 1.2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 50px;
+            }
+
+            .traineeName {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 9px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:600px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 16px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .paragraph1 {
+            font-size: 10px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .traineesCards {
+            width: 84%;
+            margin: 2rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1rem;
+            margin-bottom: 1.2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 50px;
+            }
+
+            .traineeName {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 9px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:500px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 15px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .paragraph1 {
+            font-size: 10px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .traineesCards {
+            width: 90%;
+            margin: 2rem;
+            margin-right: 0.8rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+
+
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1rem;
+            margin-bottom: 1.2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 35px;
+            }
+
+            .traineeName {
+                margin-top: 0.4rem;
+                margin-right: 1rem;
+                font-size: 10px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 8px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 10px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:400px) {
+    .flag {
+            width: 15px;
+        }
+    .commenterImg {
+                width: 40px;
+            }
+    .generalBox {
+        margin-top: 12rem;
+
+        .title {
+            font-size: 13px;
+
+        }
+
+        .boldTitle {
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .paragraph1 {
+            font-size: 8px;
+            margin-top: 2rem;
+        }
+
+        .paragraph2 {
+            font-size: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .traineesCards {
+            width: 90%;
+            margin: 2rem;
+            margin-right: 0.8rem;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            margin-top: 0.5rem;
+
+
+
+            .traineesArtImg {
+                width: 100%;
+            }
+        }
+
+        .infoBox {
+            margin-top: 1rem;
+            margin-bottom: 1.2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .traineeImg {
+                width: 35px;
+            }
+
+            .traineeName {
+                margin-top: 0.4rem;
+                margin-right: 1rem;
+                font-size: 8px;
+                font-weight: bold;
+
+                .traineeChip {
+                    font-size: 7px;
+                    height: 18px;
+                    border-radius: 8px;
+                    margin-right: 1rem;
+                }
+
+                .artType {
+                    font-size: 8px;
+                    font-weight: bold
+                }
+            }
+        }
+
+        .courseGeneralRating {
+            margin-top: 4rem;
+            margin-right: 2rem;
+            font-size: 18px;
+            font-weight: bold
+        }
+
+        .ratingBox {
+            margin-right: 2rem;
+            display: flex;
+            align-items: center;
+
+            .rating {
+                font-size: 40px;
+                font-weight: bold
+            }
+        }
+
+        .starsBox {
+            margin-top: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+
+            .starsIcon {
+                font-size: 30px;
+                color: #FFA120
+            }
+
+            .starsIconGray {
+                font-size: 30px;
+                color: lightgrey
+            }
+
+            .traineesReview {
+                font-size: 10px;
+                font-weight: bold
+            }
+        }
+
+        .arrowsBox {
+            margin-left: 1rem;
+        }
+
+        .slider1Cards {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+            .detailsBox {
+                margin-right: 2rem;
+                display: flex;
+                align-items: center;
+
+                .reviewerImg {
+                    width: 50px;
+                }
+
+                .nameAndRatingBox {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    font-size: 12px;
+                    font-weight: bold;
+
+                    .reviewerStars {
+                        font-size: 14px;
+                        color: #FFA120
+                    }
+
+                    .reviewerStarsGray {
+                        font-size: 14px;
+                        color: lightgray
+                    }
+
+                    .activeState {
+                        font-size: 12px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .review {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseSubscriber {
+            margin-top: 6rem;
+            margin-right: 2rem;
+            font-size: 20px;
+            font-weight: bold
+        }
+
+        .ownThisCourses {
+            margin-right: 2rem;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .slider2ArrowsBox {
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            margin-bottom: 3rem;
+
+            .showMoreBtn {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: 3rem;
+                padding: 10px 15px;
+                box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                border-radius: 23px;
+                cursor: pointer
+            }
+        }
+
+        .slider2Box {
+            direction: rtl;
+            margin-left: -1rem;
+
+            .slider2Cards {
+                width: 100%;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: 2rem;
+                border-radius: 10px;
+                box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+
+                .MuiCardContent-root {
+                    padding: 0;
+                }
+
+                .slider2Img {
+                    width: 200px;
+                }
+
+                .floatingChip {
+                    background-color: #7B2CBF;
+                    color: white;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 13%;
+                    left: 7%;
+                    font-size: 9px;
+                    padding: 2px 6px
+                }
+
+                .slider2DetailsBox {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #F3F3F3;
+                    margin-top: -1rem;
+
+                    .slider2SmallImg {
+                        width: 40px;
+                        margin-top: 1rem;
+
+                    }
+
+                    .slider2Name {
+                        font-size: 8px;
+                        font-weight: bold
+                    }
+
+                    .teachingDrawing {
+                        margin-right: 1rem;
+                        font-size: 10px;
+                        font-weight: 800;
+                        margin-top: 1rem;
+
+                    }
+                }
+            }
+        }
+
+        .purchaseBox {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .slider2Price {
+                margin-right: 1rem;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+
+            .slider2Currency {
+                color: black;
+                font-weight: bold;
+                font-size: 9px;
+            }
+
+            .iconBtn {
+
+                border: 0;
+                outline: 0;
+                font-weight: 200;
+                background-color: #F3F3F3;
+                color: black;
+                width: fit-content;
+                min-width: fit-content;
+                box-shadow: 0;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 0;
+                    outline: 0;
+                    background-color: #F3F3F3;
+                }
+            }
+
+            .icon {
+                font-size: 12px;
+            }
+        }
+
+        .redAdBox {
+            display: flex;
+            align-items: center;
+            padding: 40px 30px;
+            margin-top: 5rem;
+            height: 50px;
+            background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+
+            .adImg {
+                height: 170%
+            }
+
+            .highQCourses {
+                color: white;
+                margin-right: 5rem;
+                font-size: 16px;
+                font-weight: 800;
+
+                .highQCourses2ndParagraph {
+                    color: white;
+                    font-size: 11px;
+                }
+
+                .contactUsBtn {
+                    width: fit-content;
+                    margin-top: 1rem;
+                    font-size: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 3rem;
+                    padding: 5px 12px;
+                    border: 1px solid white;
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .contactUsBtnIcon {
+                        font-size: 16px;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+
+        .commentsBox {
+            margin-top: 5rem;
+
+            .comments {
+                margin-bottom: 2rem;
+                margin-top: 4rem;
+                margin-right: 2rem;
+                font-size: 18px;
+                font-weight: bold
+            }
+
+            .textArea {
+                position: relative;
+                max-width: 100%;
+                width: 100%;
+                // height:400px;
+                direction: rtl;
+                border: 0;
+                outline: 0;
+
+                .sendBtn {
+
+                    margin-bottom: 3rem;
+                    position: absolute;
+                    bottom: -17px;
+                    right: -4px;
+                    background-color: #AF151F;
+                    color: white;
+                    margin-right: 2rem;
+                    font-size: 12px;
+
+                    &:hover {
+                        background-color: #AF151F;
+                    }
+                }
+
+                .sendIcon {
+                    transform: rotate(180deg);
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .commentsInfoBox {
+            margin-top: 2rem;
+            margin-right: 2rem;
+            display: flex;
+            align-items: start;
+            padding-top: 2rem;
+            border-bottom: 1px solid rgb(245, 245, 245);
+
+            .commenterImg {
+                width: 40px;
+            }
+
+            .commenterInfoBox {
+                margin-right: 1rem;
+                font-size: 12px;
+                font-weight: bold
+            }
+
+            .flag {
+                width: 15px;
+            }
+
+            .date {
+                font-size: 12px;
+                margin-right: 1rem;
+            }
+
+            .traineeChip {
+                font-size: 9px;
+                height: 18px;
+                border-radius: 8px;
+                margin-right: 1rem;
+            }
+
+            .comment {
+                font-size: 12px;
+            }
+
+            .likesAndReplies {
+                margin-bottom: 2rem;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+
+                .likeIcon {
+                    color: #CF151F;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+
+                .commentIcon {
+                    color: lightgray;
+                    margin-right: 2rem;
+                    font-size: 14px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+
+}

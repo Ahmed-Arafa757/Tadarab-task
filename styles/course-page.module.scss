@@ -1,0 +1,3226 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Indie+Flower&family=Permanent+Marker&family=Schoolbell&display=swap');
+
+.upperStrip {
+    background-color: white;
+    font-size: 18px;
+    direction: rtl;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0.8rem;
+    padding-right: 3rem;
+    display: flex;
+    align-items: center;
+    color: darkblue;
+
+    .leftArrow {
+        font-size: 18px;
+        margin-right: 5px;
+        color: gray;
+    }
+}
+
+.courseImg {
+    width: 100%;
+}
+
+.courseVideosContainer {
+
+    .courseTitle {
+        background-color: white;
+        font-size: 25px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        border-bottom: 2px solid #f3f3f3;
+        padding-bottom: 1rem;
+
+        .closeIcon {
+            font-size: 27px;
+            float: right;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+    }
+
+    .courseDurationBox {
+        direction: rtl;
+        font-size: 14px;
+        padding-right: 1rem;
+        padding-top: 0.7rem;
+        border-bottom: 1px solid #f3f3f3;
+        padding-bottom: 0.5rem;
+        background-color: rgb(250, 250, 250);
+        color: grey;
+
+
+
+        .courseDuration {
+            margin-right: 5px;
+            font-size: 12px;
+        }
+    }
+
+    .scrollableComp {
+        overflow-y: auto;
+        height: 52vh;
+        border-bottom: 1px solid #f3f3f3;
+        direction: rtl;
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(167, 167, 167);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(136, 136, 136);
+        }
+
+        ::-webkit-scrollbar-thumb:active {
+            background: rgb(102, 102, 102);
+        }
+
+        .videoSlot {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #f3f3f3;
+            color: gray;
+            direction: rtl;
+            padding: 5px;
+            transition: all 1s ease;
+
+            &:hover {
+                background-color: rgb(246, 255, 246);
+                transition: all 0.2s ease;
+                cursor: pointer;
+                border-right: 2px solid #AF151F;
+            }
+
+            .playIcon {
+                font-size: 26px;
+                margin-right: 1rem;
+            }
+
+            .introduction {
+                font-size: 15px;
+                margin-right: 0.8rem;
+                text-align: right;
+
+                .videoDuration {
+                    color: lightgray;
+                    font-size: 12px;
+                    // margin-right: 1.5rem;
+                }
+
+            }
+
+            .lockIcon {
+                font-size: 16px;
+                color: rgb(35, 131, 35);
+                margin-left: 2.8rem;
+
+            }
+
+            .watchFree {
+                margin-left: 1.5rem;
+                font-size: 11px;
+            }
+        }
+
+        .accordionBody {
+            direction: rtl;
+
+            .accordionTitle {
+                font-size: 13px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.stickyNav {
+    direction: rtl;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    padding: 8px;
+    padding-right: 3rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    // z-index: 5;
+    // position: sticky;
+    // top: 11%;
+
+    .navLinks {
+        font-size: 14px;
+        margin-left: 2.5rem;
+        color: gray;
+        cursor: pointer;
+
+
+        &:hover {
+            border-bottom: 2px solid #AF151F;
+            color: #AF151F;
+            cursor: pointer;
+        }
+
+        &:active {
+            border-bottom: 2px solid #AF151F;
+            color: #AF151F;
+            cursor: pointer;
+        }
+    }
+
+    .addToCartBtn {
+        border-radius: 20px;
+        width: fit-content;
+        background-color: #AF151F;
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+        border: 0;
+        outline: 0;
+        display: flex;
+        align-items: center;
+        padding: 10px 35px;
+
+        &:hover {
+            background-color: #9d131d;
+        }
+
+        .cartIcon {
+            font-size: 15px;
+        }
+    }
+
+    .price {
+        font-size: 17px;
+        color: grey;
+        letter-spacing: 1px;
+        direction: ltr;
+        margin-right: 0.5rem;
+        font-family: 'Permanent Marker', cursive !important;
+    }
+}
+
+.aboutCourse {
+    direction: rtl;
+    padding-right: 2.5rem;
+    padding-top: 1.8rem;
+
+    .listItem {
+        font-size: 15px;
+        color: gray;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+    }
+
+    .listIcon {
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+    }
+}
+
+.greenAlert {
+    font-size: 16px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    direction: rtl;
+    border: 2px solid grey;
+    width: 80%;
+    margin-left: 10%;
+
+    .verifiedIcon {
+        color: rgb(27, 151, 27);
+        font-size: 30px;
+        margin-left: 7px;
+    }
+}
+
+.ownTheCourse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .ownTheCourseBtn {
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        border: 0;
+        outline: 0;
+        margin-top: 2rem;
+        padding: 1rem 6rem;
+        background-color: #AF151F;
+
+        &:hover {
+            background-color: #99141d;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: #99141d;
+            cursor: pointer;
+        }
+    }
+}
+
+.aboutThePlatform {
+    padding-top: 2rem 2rem;
+    direction: rtl;
+
+    .paragraph {
+        font-size: 15px;
+        color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 2rem;
+    }
+
+    .paragraph>div {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+}
+
+.founderInfo {
+    width: 94%;
+    margin-left: 3%;
+    background-color: rgb(246, 255, 246);
+    border-bottom: 2px solid #AF151F;
+    margin-top: 1rem;
+    font-size: 14px;
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+
+    .infoLines {
+        margin-right: 0.3rem;
+        margin-top: 0.6rem;
+        width: 100%;
+
+    }
+
+    .founderImg {
+        margin-top: 0.5rem;
+        width: 120px;
+        border-radius: 50%;
+    }
+}
+
+.filesContainer {
+    width: 94%;
+    margin-left: 3%;
+    padding-top: 1.5rem;
+    direction: rtl;
+
+    .filesList {
+        display: flex;
+        align-items: center;
+        // margin-right: 0.3rem;
+        font-size: 14px;
+        color: black;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 1rem 0.7rem;
+        .filesIcon {
+            color: gray;
+            font-size: 35px;
+            margin-left: 1rem;
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .upperStrip {
+        background-color: white;
+        font-size: 18px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 3rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 18px;
+            margin-right: 5px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 22px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 24px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 13px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 5px;
+                font-size: 11px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+                font-size: 12px;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size: 23px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 13px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 10px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 15px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 2.8rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 1.3rem;
+                    font-size: 10px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        // z-index: 5;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            font-size: 14px;
+            margin-left: 2.5rem;
+            color: gray;
+            cursor: pointer;
+
+
+            &:hover {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+
+            &:active {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+        }
+
+        .addToCartBtn {
+            border-radius: 20px;
+            width: fit-content;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 13px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding: 10px 35px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 15px;
+            }
+        }
+
+        .price {
+            font-size: 17px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.5rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 1.8rem;
+
+        .listItem {
+            font-size: 15px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 20px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 14px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 70%;
+        margin-left: 15%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 25px;
+            margin-left: 7px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 13px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 2rem;
+            padding: 0.8rem 5rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size: 15px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 14px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.6rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 120px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 1.5rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 14px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 1rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 35px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+@media(max-width:1100px){
+    .upperStrip {
+        background-color: white;
+        font-size: 16px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 3rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 16px;
+            margin-right: 5px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 20px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 22px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 12px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 4px;
+                font-size: 10px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size: 21px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 11.5px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 9px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 14px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 2.8rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 1rem;
+                    font-size: 9px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        // z-index: 5;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            font-size: 13px;
+            margin-left: 2.5rem;
+            color: gray;
+            cursor: pointer;
+
+
+            &:hover {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+
+            &:active {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+        }
+
+        .addToCartBtn {
+            border-radius: 20px;
+            width: fit-content;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 12px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding: 9px 32px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 14px;
+            }
+        }
+
+        .price {
+            font-size: 16px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.5rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 1.8rem;
+
+        .listItem {
+            font-size: 13px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 18px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 12px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 60%;
+        margin-left: 20%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 23px;
+            margin-left: 7px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 2rem;
+            padding: 0.7rem 4rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size: 13px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 13px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.6rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 1.5rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 12px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 1rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 32px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+@media(max-width:1000px){
+    .upperStrip {
+        background-color: white;
+        font-size: 14px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 3rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 14px;
+            margin-right: 5px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 18px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 20px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 11px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 4px;
+                font-size: 9px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size: 19px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 9.5px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 8px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 13px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 2.8rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 0.8rem;
+                    font-size: 8px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 11px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        // z-index: 5;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            font-size: 12px;
+            margin-left: 2.5rem;
+            color: gray;
+            cursor: pointer;
+
+
+            &:hover {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+
+            &:active {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+        }
+
+        .addToCartBtn {
+            border-radius: 20px;
+            width: fit-content;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 11px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding: 9px 32px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 12px;
+            }
+        }
+
+        .price {
+            font-size: 14px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.5rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 1.5rem;
+
+        .listItem {
+            font-size: 12px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 17px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 11px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 60%;
+        margin-left: 20%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 20px;
+            margin-left: 7px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 11px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 1.7rem;
+            padding: 0.6rem 3.5rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size: 12px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 17px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 12px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.6rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 85px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 1.2rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 12px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 1rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 29px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+@media(max-width:900px){
+   
+    .upperStrip {
+        background-color: white;
+        font-size: 14px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 3rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 14px;
+            margin-right: 5px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 17px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 19px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 11px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 4px;
+                font-size: 9px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size:19px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 9px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 8px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 13px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 1.5rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 0.8rem;
+                    font-size: 9px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        // z-index: 5;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            font-size: 13px;
+            margin-left: 2.5rem;
+            color: gray;
+            cursor: pointer;
+
+
+            &:hover {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+
+            &:active {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+        }
+
+        .addToCartBtn {
+            border-radius: 20px;
+            width: fit-content;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 11px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding: 9px 32px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 12px;
+            }
+        }
+
+        .price {
+            font-size: 14px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.5rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 1.5rem;
+
+        .listItem {
+            font-size: 12px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 16px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 10px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 60%;
+        margin-left: 20%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 16px;
+            margin-left:9px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 10px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 1.7rem;
+            padding: 0.6rem 3.2rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size:11px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 11px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.4rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 75px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 0.8rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 11px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 1rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 25px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+@media(max-width:800px){
+    
+    .upperStrip {
+        background-color: white;
+        font-size: 12px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 3rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 12px;
+            margin-right: 5px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 16px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 18px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 10px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 4px;
+                font-size: 8px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size: 18px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 8px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 7px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 12px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 1.5rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 0.8rem;
+                    font-size: 8px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 11px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        // z-index: 5;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            font-size: 11px;
+            margin-left: 2.5rem;
+            color: gray;
+            cursor: pointer;
+
+
+            &:hover {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+
+            &:active {
+                border-bottom: 2px solid #AF151F;
+                color: #AF151F;
+                cursor: pointer;
+            }
+        }
+
+        .addToCartBtn {
+            border-radius: 20px;
+            width: fit-content;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 10px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding:8px 27px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 11px;
+            }
+        }
+
+        .price {
+            font-size: 13px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.5rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 1.5rem;
+
+        .listItem {
+            font-size: 11px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 15px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 9px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 70%;
+        margin-left: 15%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 14px;
+            margin-left:9px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 9px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 1.7rem;
+            padding: 0.4rem 2.7rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size:11px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 11px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.4rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 75px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 0.8rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 11px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 0.8rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 23px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width:770px){
+    
+     .stickyNav {
+             text-align: center;
+        //  position: fixed;
+        //  bottom: 0;
+         direction: rtl;
+         display: flex;
+         justify-content: start;
+         align-items: center;
+         border-bottom: 1px solid #f3f3f3;
+         border-top: 1px solid #f3f3f3;
+         padding: 8px;
+         padding-right: 3rem;
+         box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+         background-color: white;
+         z-index: 5;
+         width:100%;
+         z-index: 10;
+         // position: sticky;
+         // top: 11%;
+
+         .navLinks {
+             display: none;
+
+         }
+
+         .addToCartBtn {
+         display: flex;
+justify-content: center;
+             text-align: center;
+             border-radius: 8px;
+             width: 70%;
+             background-color: #AF151F;
+             color: white;
+             cursor: pointer;
+             font-size: 10px;
+             border: 0;
+             outline: 0;
+             display: flex;
+             align-items: center;
+             padding: 8px 27px;
+
+             &:hover {
+                 background-color: #9d131d;
+             }
+
+             .cartIcon {
+                 font-size: 11px;
+             }
+         }
+
+         .price {
+             font-size: 16px;
+             color: grey;
+             letter-spacing: 1px;
+             direction: ltr;
+             margin-right: 0.9rem;
+             font-family: 'Permanent Marker', cursive !important;
+         }
+     }
+}
+@media(max-width:700px){
+    
+    .upperStrip {
+        background-color: white;
+        font-size: 12px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 3rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 12px;
+            margin-right: 5px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 16px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 18px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 10px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 4px;
+                font-size: 8px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size: 18px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 8px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 7px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 12px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 1.5rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 0.8rem;
+                    font-size: 8px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 11px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        text-align: center;
+        // position: fixed;
+        // bottom: 0;
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        z-index: 5;
+        width: 100%;
+        z-index: 10;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            display: none;
+
+        }
+
+        .addToCartBtn {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 8px;
+            width: 70%;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 10px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding: 8px 27px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 11px;
+            }
+        }
+
+        .price {
+            font-size: 16px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.9rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 1.5rem;
+
+        .listItem {
+            font-size: 11px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 15px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 8px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 70%;
+        margin-left: 15%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 12px;
+            margin-left:9px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 9px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 1.7rem;
+            padding: 0.4rem 2.7rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size:11px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 11px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.4rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 60px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 0.8rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 11px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 0.8rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 20px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    
+    .upperStrip {
+        background-color: white;
+        font-size: 9px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 3rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 9px;
+            margin-right: 5px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 16px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 18px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 10px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 4px;
+                font-size: 8px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size: 18px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 8px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 7px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 12px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 1.5rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 0.8rem;
+                    font-size: 8px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 11px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        text-align: center;
+        // position: fixed;
+        // bottom: 0;
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        z-index: 5;
+        width: 100%;
+        z-index: 10;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            display: none;
+
+        }
+
+        .addToCartBtn {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 8px;
+            width: 65%;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 10px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding: 8px 27px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 11px;
+            }
+        }
+
+        .price {
+            font-size: 14px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.9rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 1rem;
+
+        .listItem {
+            font-size: 10px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 13px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 6px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 70%;
+        margin-left: 15%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 9px;
+            margin-left:9px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 6px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 1.7rem;
+            padding: 0.4rem 2rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size:8px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 13px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 8px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.4rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 55px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 0.8rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 9px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 0.8rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 15px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+@media(max-width:400px){
+    
+    .upperStrip {
+        background-color: white;
+        font-size: 8px;
+        direction: rtl;
+        border-bottom: 1px solid #f3f3f3;
+        padding: 0.8rem;
+        padding-right: 2rem;
+        display: flex;
+        align-items: center;
+        color: darkblue;
+
+        .leftArrow {
+            font-size: 8px;
+            margin-right: 3px;
+            color: gray;
+        }
+    }
+
+    .courseImg {
+        width: 100%;
+    }
+
+    .courseVideosContainer {
+
+        .courseTitle {
+            background-color: white;
+            font-size: 14px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            border-bottom: 2px solid #f3f3f3;
+            padding-bottom: 1rem;
+
+            .closeIcon {
+                font-size: 16px;
+                float: right;
+                margin-right: 1rem;
+            }
+        }
+
+        .courseDurationBox {
+            direction: rtl;
+            font-size: 8px;
+            padding-right: 1rem;
+            padding-top: 0.7rem;
+            border-bottom: 1px solid #f3f3f3;
+            padding-bottom: 0.5rem;
+            background-color: rgb(250, 250, 250);
+            color: grey;
+
+
+
+            .courseDuration {
+                margin-right: 4px;
+                font-size: 7px;
+            }
+        }
+
+        .scrollableComp {
+            overflow-y: auto;
+            height: 52vh;
+            border-bottom: 1px solid #f3f3f3;
+            direction: rtl;
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: rgb(167, 167, 167);
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: rgb(136, 136, 136);
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: rgb(102, 102, 102);
+            }
+
+            .videoSlot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #f3f3f3;
+                color: gray;
+                direction: rtl;
+                padding: 5px;
+                transition: all 1s ease;
+
+                &:hover {
+                    background-color: rgb(246, 255, 246);
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                    border-right: 2px solid #AF151F;
+                }
+
+                .playIcon {
+                    font-size: 16px;
+                    margin-right: 1rem;
+                }
+
+                .introduction {
+                    font-size: 7px;
+                    margin-right: 0.8rem;
+                    text-align: right;
+
+                    .videoDuration {
+                        color: lightgray;
+                        font-size: 6px;
+                        // margin-right: 1.5rem;
+                    }
+
+                }
+
+                .lockIcon {
+                    font-size: 11px;
+                    color: rgb(35, 131, 35);
+                    margin-left: 1.1rem;
+
+                }
+
+                .watchFree {
+                    margin-left: 0.8rem;
+                    font-size: 7px;
+                }
+            }
+
+            .accordionBody {
+                direction: rtl;
+
+                .accordionTitle {
+                    font-size: 10px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .stickyNav {
+        text-align: center;
+        // position: fixed;
+        // bottom: 0;
+        direction: rtl;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid #f3f3f3;
+        border-top: 1px solid #f3f3f3;
+        padding: 8px;
+        padding-right: 3rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        z-index: 5;
+        width: 100%;
+        z-index: 10;
+        // position: sticky;
+        // top: 11%;
+
+        .navLinks {
+            display: none;
+
+        }
+
+        .addToCartBtn {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 8px;
+            width: 65%;
+            background-color: #AF151F;
+            color: white;
+            cursor: pointer;
+            font-size: 10px;
+            border: 0;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            padding: 8px 27px;
+
+            &:hover {
+                background-color: #9d131d;
+            }
+
+            .cartIcon {
+                font-size: 11px;
+            }
+        }
+
+        .price {
+            font-size: 13px;
+            color: grey;
+            letter-spacing: 1px;
+            direction: ltr;
+            margin-right: 0.9rem;
+            font-family: 'Permanent Marker', cursive !important;
+        }
+    }
+
+    .aboutCourse {
+        direction: rtl;
+        padding-right: 2.5rem;
+        padding-top: 0.7rem;
+
+        .listItem {
+            font-size: 9px;
+            color: gray;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+
+        }
+
+        .listIcon {
+            font-size: 10px;
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+
+    .greenAlert {
+        font-size: 5px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 9px;
+        direction: rtl;
+        border: 2px solid grey;
+        width: 70%;
+        margin-left: 15%;
+
+        .verifiedIcon {
+            color: rgb(27, 151, 27);
+            font-size: 7px;
+            margin-left:9px;
+        }
+    }
+
+    .ownTheCourse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .ownTheCourseBtn {
+            border-radius: 7px;
+            font-size: 5px;
+            font-weight: bold;
+            color: white;
+            border: 0;
+            outline: 0;
+            margin-top: 1rem;
+            padding: 0.4rem 1.5rem;
+            background-color: #AF151F;
+
+            &:hover {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: #99141d;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .aboutThePlatform {
+        padding-top: 2rem 2rem;
+        direction: rtl;
+
+        .paragraph {
+            font-size:7px;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+        }
+
+        .paragraph>div {
+            width: 100%;
+            margin-top: 0.6rem;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            margin-right: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .founderInfo {
+        width: 94%;
+        margin-left: 3%;
+        background-color: rgb(246, 255, 246);
+        border-bottom: 2px solid #AF151F;
+        margin-top: 1rem;
+        font-size: 7px;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .infoLines {
+            margin-right: 0.3rem;
+            margin-top: 0.4rem;
+            width: 100%;
+
+        }
+
+        .founderImg {
+            margin-top: 0.5rem;
+            width: 40px;
+            border-radius: 50%;
+        }
+    }
+
+    .filesContainer {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 0.84rem;
+        direction: rtl;
+
+        .filesList {
+            display: flex;
+            align-items: center;
+            // margin-right: 0.3rem;
+            font-size: 8px;
+            color: black;
+            border-bottom: 1px solid #f3f3f3;
+            padding: 0.8rem 0.7rem;
+
+            .filesIcon {
+                color: gray;
+                font-size: 12px;
+                margin-left: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,3769 @@
+.generalBox {
+  margin-top: 12rem;
+}
+.generalBox .commenterImg {
+  width: 40px;
+}
+.generalBox .boldTitle {
+  font-weight: bold;
+}
+.generalBox .paragraph1 {
+  font-size: 14px;
+  margin-top: 2rem;
+}
+.generalBox .paragraph2 {
+  font-size: 12px;
+  margin-bottom: 3rem;
+}
+.generalBox .traineesCards {
+  margin: 2rem;
+  box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.generalBox .traineesCards .MuiCardContent-root {
+  padding: 0;
+}
+.generalBox .traineesCards .traineesArtImg {
+  width: 100%;
+}
+.generalBox .infoBox {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+.generalBox .infoBox .traineeImg {
+  width: 50px;
+}
+.generalBox .infoBox .traineeName {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+.generalBox .infoBox .traineeName .traineeChip {
+  font-size: 9px;
+  height: 18px;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+.generalBox .infoBox .traineeName .artType {
+  font-size: 10px;
+  font-weight: bold;
+}
+.generalBox .courseGeneralRating {
+  margin-top: 4rem;
+  margin-right: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+.generalBox .ratingBox {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+.generalBox .ratingBox .rating {
+  font-size: 40px;
+  font-weight: bold;
+}
+.generalBox .starsBox {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.generalBox .starsBox .starsIcon {
+  font-size: 30px;
+  color: #FFA120;
+}
+.generalBox .starsBox .starsIconGray {
+  font-size: 30px;
+  color: lightgrey;
+}
+.generalBox .starsBox .traineesReview {
+  font-size: 10px;
+  font-weight: bold;
+}
+.generalBox .arrowsBox {
+  margin-left: 1rem;
+}
+.generalBox .slider1Cards {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.generalBox .slider1Cards .detailsBox {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+.generalBox .slider1Cards .detailsBox .reviewerImg {
+  width: 50px;
+}
+.generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+.generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+  font-size: 14px;
+  color: #FFA120;
+}
+.generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+  font-size: 14px;
+  color: lightgray;
+}
+.generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+  font-size: 12px;
+  margin-right: 1rem;
+}
+.generalBox .slider1Cards .review {
+  font-size: 12px;
+  margin-right: 1rem;
+}
+.generalBox .courseSubscriber {
+  margin-top: 6rem;
+  margin-right: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+.generalBox .ownThisCourses {
+  margin-right: 2rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+.generalBox .slider2ArrowsBox {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+.generalBox .slider2ArrowsBox .showMoreBtn {
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 3rem;
+  padding: 10px 15px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 23px;
+  cursor: pointer;
+}
+.generalBox .slider2Box {
+  direction: rtl;
+  margin-left: -1rem;
+}
+.generalBox .slider2Box .slider2Cards {
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+  padding: 0;
+}
+.generalBox .slider2Box .slider2Cards .slider2Img {
+  width: 200px;
+}
+.generalBox .slider2Box .slider2Cards .floatingChip {
+  background-color: #7B2CBF;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 15%;
+  left: 9%;
+  font-size: 8px;
+  padding: 1.8px 5px;
+}
+.generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F3F3F3;
+  margin-top: -1rem;
+}
+.generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+  width: 40px;
+  margin-top: 1rem;
+}
+.generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+  font-size: 8px;
+  font-weight: bold;
+}
+.generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+  margin-right: 1rem;
+  font-size: 10px;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+.generalBox .purchaseBox {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.generalBox .purchaseBox .slider2Price {
+  margin-right: 1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 11px;
+}
+.generalBox .purchaseBox .slider2Currency {
+  color: black;
+  font-weight: bold;
+  font-size: 9px;
+}
+.generalBox .purchaseBox .iconBtn {
+  border: 0;
+  outline: 0;
+  font-weight: 200;
+  background-color: #F3F3F3;
+  color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  box-shadow: 0;
+  border-radius: 10px;
+}
+.generalBox .purchaseBox .iconBtn:hover {
+  border: 0;
+  outline: 0;
+  background-color: #F3F3F3;
+}
+.generalBox .purchaseBox .icon {
+  font-size: 12px;
+}
+.generalBox .redAdBox {
+  display: flex;
+  align-items: center;
+  padding: 40px 30px;
+  margin-top: 5rem;
+  height: 50px;
+  background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+}
+.generalBox .redAdBox .adImg {
+  height: 170%;
+}
+.generalBox .redAdBox .highQCourses {
+  color: white;
+  margin-right: 5rem;
+  font-size: 16px;
+  font-weight: 800;
+}
+.generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+  color: white;
+  font-size: 11px;
+}
+.generalBox .redAdBox .highQCourses .contactUsBtn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 1rem;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  padding: 5px 12px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+  font-size: 16px;
+  margin-right: 1rem;
+}
+.generalBox .commentsBox {
+  margin-top: 5rem;
+}
+.generalBox .commentsBox .comments {
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+.generalBox .commentsBox .textArea {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  direction: rtl;
+  border: 0;
+  outline: 0;
+}
+.generalBox .commentsBox .textArea .sendBtn {
+  margin-bottom: 3rem;
+  position: absolute;
+  bottom: -17px;
+  right: -4px;
+  background-color: #AF151F;
+  color: white;
+  margin-right: 2rem;
+  font-size: 12px;
+}
+.generalBox .commentsBox .textArea .sendBtn:hover {
+  background-color: #AF151F;
+}
+.generalBox .commentsBox .textArea .sendIcon {
+  transform: rotate(180deg);
+  font-size: 12px;
+}
+.generalBox .repliesInfoBoxs {
+  margin-top: 2rem;
+  margin-right: 8rem;
+  display: flex;
+  align-items: start;
+  padding-top: 2rem;
+  border-bottom: 1px solid whitesmoke;
+}
+.generalBox .commentsInfoBox {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: start;
+  padding-top: 2rem;
+  border-bottom: 1px solid whitesmoke;
+}
+.generalBox .commentsInfoBox .commenterImg {
+  width: 40px;
+}
+.generalBox .commentsInfoBox .commenterInfoBox {
+  margin-right: 1rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+.generalBox .commentsInfoBox .flag {
+  width: 15px;
+}
+.generalBox .commentsInfoBox .date {
+  font-size: 12px;
+  margin-right: 1rem;
+}
+.generalBox .commentsInfoBox .traineeChip {
+  font-size: 9px;
+  height: 18px;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+.generalBox .commentsInfoBox .comment {
+  font-size: 12px;
+}
+.generalBox .commentsInfoBox .likesAndReplies {
+  margin-bottom: 2rem;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+  color: #CF151F;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+.generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+  color: lightgray;
+  margin-right: 2rem;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1288px) {
+  .toBeRemoved {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+  }
+  .generalBox .paragraph1 {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 12px;
+    margin-bottom: 3rem;
+  }
+  .generalBox .traineesCards {
+    margin: 2rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 50px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 1100px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 22px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 12px;
+    margin-bottom: 3rem;
+  }
+  .generalBox .traineesCards {
+    margin: 2rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 50px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 1000px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 22px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 13px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 12px;
+    margin-bottom: 3rem;
+  }
+  .generalBox .traineesCards {
+    width: 84%;
+    margin: 2rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 50px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 22px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 13px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 12px;
+    margin-bottom: 3rem;
+  }
+  .generalBox .traineesCards {
+    width: 84%;
+    margin: 2rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 50px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 20px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 12px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 11px;
+    margin-bottom: 2rem;
+  }
+  .generalBox .traineesCards {
+    width: 84%;
+    margin: 2rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 50px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 18px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 11px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 10px;
+    margin-bottom: 1rem;
+  }
+  .generalBox .traineesCards {
+    width: 84%;
+    margin: 2rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 50px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 16px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 10px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 10px;
+    margin-bottom: 1rem;
+  }
+  .generalBox .traineesCards {
+    width: 84%;
+    margin: 2rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 50px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 15px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 10px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 10px;
+    margin-bottom: 1rem;
+  }
+  .generalBox .traineesCards {
+    width: 90%;
+    margin: 2rem;
+    margin-right: 0.8rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 35px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 8px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .flag {
+    width: 15px;
+  }
+
+  .commenterImg {
+    width: 40px;
+  }
+
+  .generalBox {
+    margin-top: 12rem;
+  }
+  .generalBox .title {
+    font-size: 13px;
+  }
+  .generalBox .boldTitle {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .generalBox .paragraph1 {
+    font-size: 8px;
+    margin-top: 2rem;
+  }
+  .generalBox .paragraph2 {
+    font-size: 10px;
+    margin-bottom: 1rem;
+  }
+  .generalBox .traineesCards {
+    width: 90%;
+    margin: 2rem;
+    margin-right: 0.8rem;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 0.5rem;
+  }
+  .generalBox .traineesCards .traineesArtImg {
+    width: 100%;
+  }
+  .generalBox .infoBox {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .infoBox .traineeImg {
+    width: 35px;
+  }
+  .generalBox .infoBox .traineeName {
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .infoBox .traineeName .traineeChip {
+    font-size: 7px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .infoBox .traineeName .artType {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .courseGeneralRating {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .ratingBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .ratingBox .rating {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .generalBox .starsBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .generalBox .starsBox .starsIcon {
+    font-size: 30px;
+    color: #FFA120;
+  }
+  .generalBox .starsBox .starsIconGray {
+    font-size: 30px;
+    color: lightgrey;
+  }
+  .generalBox .starsBox .traineesReview {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .generalBox .arrowsBox {
+    margin-left: 1rem;
+  }
+  .generalBox .slider1Cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider1Cards .detailsBox {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .slider1Cards .detailsBox .reviewerImg {
+    width: 50px;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStars {
+    font-size: 14px;
+    color: #FFA120;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .reviewerStarsGray {
+    font-size: 14px;
+    color: lightgray;
+  }
+  .generalBox .slider1Cards .detailsBox .nameAndRatingBox .activeState {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .slider1Cards .review {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .courseSubscriber {
+    margin-top: 6rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .generalBox .ownThisCourses {
+    margin-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .generalBox .slider2ArrowsBox {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+  }
+  .generalBox .slider2ArrowsBox .showMoreBtn {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 3rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    cursor: pointer;
+  }
+  .generalBox .slider2Box {
+    direction: rtl;
+    margin-left: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .generalBox .slider2Box .slider2Cards .MuiCardContent-root {
+    padding: 0;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2Img {
+    width: 200px;
+  }
+  .generalBox .slider2Box .slider2Cards .floatingChip {
+    background-color: #7B2CBF;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-top: -1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2SmallImg {
+    width: 40px;
+    margin-top: 1rem;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .slider2Name {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .generalBox .slider2Box .slider2Cards .slider2DetailsBox .teachingDrawing {
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 1rem;
+  }
+  .generalBox .purchaseBox {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .generalBox .purchaseBox .slider2Price {
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .generalBox .purchaseBox .slider2Currency {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .generalBox .purchaseBox .iconBtn {
+    border: 0;
+    outline: 0;
+    font-weight: 200;
+    background-color: #F3F3F3;
+    color: black;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    box-shadow: 0;
+    border-radius: 10px;
+  }
+  .generalBox .purchaseBox .iconBtn:hover {
+    border: 0;
+    outline: 0;
+    background-color: #F3F3F3;
+  }
+  .generalBox .purchaseBox .icon {
+    font-size: 12px;
+  }
+  .generalBox .redAdBox {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    margin-top: 5rem;
+    height: 50px;
+    background: radial-gradient(circle farthest-side, #cf151f, #a3151d);
+  }
+  .generalBox .redAdBox .adImg {
+    height: 170%;
+  }
+  .generalBox .redAdBox .highQCourses {
+    color: white;
+    margin-right: 5rem;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .generalBox .redAdBox .highQCourses .highQCourses2ndParagraph {
+    color: white;
+    font-size: 11px;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 5px 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .generalBox .redAdBox .highQCourses .contactUsBtn .contactUsBtnIcon {
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsBox {
+    margin-top: 5rem;
+  }
+  .generalBox .commentsBox .comments {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .generalBox .commentsBox .textArea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    direction: rtl;
+    border: 0;
+    outline: 0;
+  }
+  .generalBox .commentsBox .textArea .sendBtn {
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: -17px;
+    right: -4px;
+    background-color: #AF151F;
+    color: white;
+    margin-right: 2rem;
+    font-size: 12px;
+  }
+  .generalBox .commentsBox .textArea .sendBtn:hover {
+    background-color: #AF151F;
+  }
+  .generalBox .commentsBox .textArea .sendIcon {
+    transform: rotate(180deg);
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: start;
+    padding-top: 2rem;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .generalBox .commentsInfoBox .commenterImg {
+    width: 40px;
+  }
+  .generalBox .commentsInfoBox .commenterInfoBox {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .generalBox .commentsInfoBox .flag {
+    width: 15px;
+  }
+  .generalBox .commentsInfoBox .date {
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .traineeChip {
+    font-size: 9px;
+    height: 18px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  .generalBox .commentsInfoBox .comment {
+    font-size: 12px;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies {
+    margin-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .likeIcon {
+    color: #CF151F;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .generalBox .commentsInfoBox .likesAndReplies .commentIcon {
+    color: lightgray;
+    margin-right: 2rem;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+/*# sourceMappingURL=activities-and-reviews.module.css.map */

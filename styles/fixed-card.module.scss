@@ -1,0 +1,1084 @@
+.fixedcard {
+    position: sticky;
+    top: 7rem;
+    min-width: auto;
+    direction: rtl;
+    border-radius: 20px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    .learnDrawing {
+        font-weight: bold;
+    }
+
+    .egyPound {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .oldPrice {
+        color: #777777;
+        font-weight: bold;
+        font-size: 13px;
+        text-decoration: line-through #C1121F;
+    }
+
+    .egyPound2 {
+        color: #777777;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .addToCartBtn {
+        font-size: 12px;
+        background-color: #C1121F;
+        color: white;
+        border-radius: 8px;
+        min-width: auto;
+
+        &:hover {
+            background-color: #C1121F;
+        }
+    }
+
+    .heartIconBtn {
+        border: 0;
+        outline: 0;
+        font-weight: 100;
+        margin-right: 7px;
+        background-color: #F3F3F3;
+        color: black;
+        width: fit-content;
+        box-shadow: 0;
+        border-radius: 10px;
+        min-width: auto;
+
+
+        &:hover {
+            border: 0;
+            outline: 0;
+            background-color: #F3F3F3;
+        }
+    }
+
+    .shareIconBtn {
+        border: 0;
+        outline: 0;
+        font-weight: 200;
+        margin-right: 7px;
+        background-color: #F3F3F3;
+        color: black;
+        width: fit-content;
+        box-shadow: 0;
+        border-radius: 10px;
+        min-width: auto;
+
+        &:hover {
+            border: 0;
+            outline: 0;
+            background-color: #F3F3F3;
+        }
+    }
+
+    .cartIcon {
+        font-size: 18px;
+        margin-left: 1rem;
+    }
+
+    .greenAlert {
+        height: fit-content;
+        background-color: #E8F3EE;
+        font-size: 11px;
+        font-weight: bold;
+        color: #198754;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+
+        .alertSmallText {
+            font-size: 11px;
+        }
+    }
+
+    .verificationIcon {
+        font-size: inherit;
+    }
+
+    .rulesContainers {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+
+        .rulesIcons {
+            font-size: 15px;
+            margin-left: 1rem;
+            color: #C1121F;
+        }
+    }
+
+
+    .redAlert {
+        height: fit-content;
+        background-color: #F9E8E9;
+        font-size: 11px;
+        color: black;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .millionLearners {
+        font-weight: bold;
+        font-size: 11px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        margin-top: 1rem;
+        // margin-bottom: 1rem;
+        margin-right: 1rem;
+        font-size: 11px;
+        color: "black";
+        text-align: "center";
+
+        .enterCopon {
+            font-weight: bolder;
+            font-size: 11px;
+            margin-left: 3px;
+            margin-right: 3px;
+            color: #C1121F;
+        }
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .learnDrawing {
+        font-size: 15px !important;
+    }
+
+    .egyPound {
+        font-size: 13px !important;
+    }
+
+    .oldPrice {
+        font-size: 11px !important;
+    }
+
+    .egyPound2 {
+        font-size: 9px !important;
+    }
+
+    .addToCartBtn {
+        font-size: 11px !important;
+        padding: 10px 6px !important;
+
+    }
+
+    .heartIconBtn {
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+    }
+
+    .shareIconBtn {
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+
+    }
+
+    .cartIcon {
+        font-size: 16px !important;
+        margin-left: 0.5rem !important;
+
+    }
+
+
+    .greenAlert {
+        height: fit-content;
+        font-size: 9px !important;
+        margin-top: 1rem !important;
+
+        .alertSmallText {
+            font-size: 9px !important;
+        }
+    }
+
+    .verificationIcon {
+        font-size: 18px !important;
+    }
+
+    .rulesContainers {
+        margin-top: 0.8rem !important;
+        font-size: 10px !important;
+
+        .rulesIcons {
+            font-size: 13px !important;
+            margin-left: 1rem;
+        }
+    }
+
+    .redAlert {
+        height: fit-content;
+        font-size: 9px !important;
+        margin-top: 1rem;
+    }
+
+    .millionLearners {
+        font-size: 9px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        font-size: 9px !important;
+
+        .enterCopon {
+            font-weight: bolder;
+            font-size: 9px !important;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+    }
+}
+
+@media (max-width:1100px) {
+    .learnDrawing {
+        font-size: 14px !important;
+    }
+
+    .egyPound {
+        font-size: 12px !important;
+    }
+
+    .oldPrice {
+        font-size: 10.5px !important;
+    }
+
+    .egyPound2 {
+        font-size: 8.5px !important;
+    }
+
+    .addToCartBtn {
+        font-size: 9px !important;
+        padding: 10px 6px !important;
+
+    }
+
+    .heartIconBtn {
+        font-size: 14px !important;
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+    }
+
+    .shareIconBtn {
+        font-size: 14px !important;
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+
+    }
+
+    .cartIcon {
+        font-size: 14px !important;
+
+    }
+
+    .heartIcon {
+        font-size: 16px !important;
+
+    }
+
+    .shareIcon {
+        font-size: 16px !important;
+
+    }
+
+    .greenAlert {
+        height: fit-content;
+        font-size: 8.5px !important;
+        margin-top: 1rem !important;
+
+        .alertSmallText {
+            font-size: 8.5px !important;
+        }
+    }
+
+    .verificationIcon {
+        font-size: 16px !important;
+    }
+
+    .rulesContainers {
+        margin-top: 0.8rem !important;
+        font-size: 10px !important;
+
+        .rulesIcons {
+            font-size: 13px !important;
+            margin-left: 1rem;
+        }
+    }
+
+    .redAlert {
+        height: fit-content;
+        font-size: 8.5px !important;
+        margin-top: 1rem;
+    }
+
+    .millionLearners {
+        font-size: 9px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        font-size: 9px !important;
+
+        .enterCopon {
+            font-weight: bolder;
+            font-size: 9px !important;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .learnDrawing {
+        font-size: 13px !important;
+    }
+
+    .egyPound {
+        font-size: 11px !important;
+    }
+
+    .oldPrice {
+        font-size: 10px !important;
+    }
+
+    .egyPound2 {
+        font-size: 8px !important;
+    }
+
+    .addToCartBtn {
+        font-size: 9px !important;
+        padding: 10px 6px !important;
+
+    }
+
+    .heartIconBtn {
+        font-size: 14px !important;
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+    }
+
+    .shareIconBtn {
+        font-size: 14px !important;
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+
+    }
+
+    .cartIcon {
+        font-size: 14px !important;
+
+    }
+
+    .heartIcon {
+        font-size: 16px !important;
+
+    }
+
+    .shareIcon {
+        font-size: 16px !important;
+
+    }
+
+    .greenAlert {
+        height: fit-content;
+        font-size: 7.5px !important;
+        margin-top: 1rem !important;
+
+        .alertSmallText {
+            font-size: 7.5px !important;
+        }
+    }
+
+    .verificationIcon {
+        font-size: 14px !important;
+        margin-right: -3px !important;
+    }
+
+    .rulesContainers {
+        margin-top: 0.8rem !important;
+        font-size: 10px !important;
+
+        .rulesIcons {
+            font-size: 13px !important;
+            margin-left: 1rem;
+        }
+    }
+
+    .redAlert {
+        height: fit-content;
+        font-size: 7.5px !important;
+        margin-top: 1rem;
+    }
+
+    .millionLearners {
+        font-size: 9px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        font-size: 8.5px !important;
+
+        .enterCopon {
+            font-weight: bolder;
+            font-size: 8.5px !important;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+    }
+}
+
+
+@media (max-width:899px) {
+    .fixedcard {
+        margin-left: 15px;
+
+    }
+
+    .learnDrawing {
+        font-size: 14px !important;
+    }
+
+    .egyPound {
+        font-size: 12.5px !important;
+    }
+
+    .oldPrice {
+        font-size: 11.5px !important;
+    }
+
+    .egyPound2 {
+        font-size: 9px !important;
+    }
+
+    .addToCartBtn {
+        font-size: 9px !important;
+        padding: 10px 6px !important;
+
+    }
+
+    .btnsContainer {
+        margin-left: 15px;
+    }
+
+    .heartIconBtn {
+        font-size: 14px !important;
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+    }
+
+    .shareIconBtn {
+        font-size: 14px !important;
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+
+    }
+
+    .cartIcon {
+        font-size: 14px !important;
+
+    }
+
+    .heartIcon {
+        font-size: 16px !important;
+
+    }
+
+    .shareIcon {
+        font-size: 16px !important;
+
+    }
+
+    .greenAlert {
+        height: fit-content;
+        font-size: 8.5px !important;
+        margin-top: 1rem !important;
+
+        .alertSmallText {
+            font-size: 8.5px !important;
+        }
+    }
+
+    .verificationIcon {
+        font-size: 14px !important;
+        margin-right: -3px !important;
+    }
+
+    .rulesContainers {
+        margin-top: 0.8rem !important;
+        font-size: 10px !important;
+
+        .rulesIcons {
+            font-size: 13px !important;
+            margin-left: 1rem;
+        }
+    }
+
+    .redAlert {
+        height: fit-content;
+        font-size: 8.5px !important;
+        margin-top: 1rem;
+    }
+
+    .millionLearners {
+        font-size: 9px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        font-size: 9px !important;
+
+        .enterCopon {
+            font-weight: bolder;
+            font-size: 9px !important;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+    }
+}
+
+@media (max-width:800px) {
+    .fixedcard {
+        margin-left: 10px;
+
+    }
+
+    .learnDrawing {
+        font-size: 13px !important;
+    }
+
+    .egyPound {
+        font-size: 12px !important;
+    }
+
+    .oldPrice {
+        font-size: 11px !important;
+    }
+
+    .egyPound2 {
+        font-size: 8.5px !important;
+    }
+
+    .addToCartBtn {
+        font-size: 7.5px !important;
+        padding: 10px 6px !important;
+
+    }
+
+    .btnsContainer {
+        margin-left: 12px;
+    }
+
+    .heartIconBtn {
+        font-size: 14px !important;
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+    }
+
+    .shareIconBtn {
+        font-size: 14px !important;
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+
+    }
+
+    .cartIcon {
+        font-size: 12px !important;
+
+    }
+
+    .heartIcon {
+        font-size: 13px !important;
+
+    }
+
+    .shareIcon {
+        font-size: 13px !important;
+
+    }
+
+    .greenAlert {
+        height: fit-content;
+        font-size: 7px !important;
+        margin-top: 1rem !important;
+
+        .alertSmallText {
+            font-size: 7px !important;
+        }
+    }
+
+    .verificationIcon {
+        font-size: 12px !important;
+        margin-right: -3px !important;
+    }
+
+    .rulesContainers {
+        margin-top: 0.8rem !important;
+        font-size: 10px !important;
+
+        .rulesIcons {
+            font-size: 13px !important;
+            margin-left: 1rem;
+        }
+    }
+
+    .redAlert {
+        height: fit-content;
+        font-size: 7px !important;
+        margin-top: 1rem;
+    }
+
+    .millionLearners {
+        font-size: 8px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        font-size: 8.5px !important;
+
+        .enterCopon {
+            font-weight: bolder;
+            font-size: 8.5px !important;
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+    }
+}
+
+@media (max-width:704px) {
+    .fixedcard {
+        margin-left: 14px;
+
+    }
+
+    .learnDrawing {
+        font-size: 12px !important;
+    }
+
+    .egyPound {
+        font-size: 11.5px !important;
+    }
+
+    .oldPrice {
+        font-size: 10.5px !important;
+    }
+
+    .egyPound2 {
+        font-size: 8px !important;
+    }
+
+    .addToCartBtn {
+        //  font-size: 7.5px !important;
+        padding-right: 14px !important;
+
+    }
+
+    .addToCartText {
+        display: none;
+    }
+
+    .btnsContainer {
+        margin-left: 12px;
+    }
+
+    .heartIconBtn {
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+    }
+
+    .shareIconBtn {
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+
+    }
+
+    .cartIcon {
+        font-size: 13px !important;
+
+    }
+
+    .heartIcon {
+        font-size: 13px !important;
+
+    }
+
+    .shareIcon {
+        font-size: 13px !important;
+
+    }
+
+    .greenAlert {
+        display: none !important;
+    }
+
+    .verificationIcon {
+        font-size: 12px !important;
+        margin-right: -3px !important;
+    }
+
+    .rulesContainers {
+        display: none !important;
+
+    }
+
+    .redAlert {
+        display: none !important;
+
+    }
+
+    .millionLearners {
+        font-size: 8px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        display: none !important;
+
+    }
+}
+
+@media (max-width:600px) {
+    .fixedcard {
+        margin-left: 14px !important; 
+
+    }
+
+    .learnDrawing {
+        font-size: 12px !important;
+    }
+
+    .egyPound {
+        font-size: 11.5px !important;
+    }
+
+    .oldPrice {
+        font-size: 10.5px !important;
+    }
+
+    .egyPound2 {
+        font-size: 8px !important;
+    }
+
+    .addToCartBtn {
+        //  font-size: 7.5px !important;
+        padding: 10px 12px 10px 5px !important;
+
+    }
+
+    .addToCartText {
+        display: none;
+    }
+
+    .btnsContainer {
+        margin-left: 9px;
+    }
+
+    .heartIconBtn {
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+        padding: 12px !important;
+
+    }
+
+    .shareIconBtn {
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+        padding: 12px !important;
+
+    }
+
+    .cartIcon {
+        font-size: 12px !important;
+        margin-right: 1px;
+
+    }
+
+    .heartIcon {
+        font-size: 12px !important;
+
+    }
+
+    .shareIcon {
+        font-size: 12px !important;
+
+    }
+
+    .greenAlert {
+        display: none !important;
+    }
+
+    .verificationIcon {
+        font-size: 12px !important;
+        margin-right: -3px !important;
+    }
+
+    .rulesContainers {
+        display: none !important;
+
+    }
+
+    .redAlert {
+        display: none !important;
+
+    }
+
+    .millionLearners {
+        font-size: 8px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        display: none !important;
+
+    }
+}
+
+@media (max-width:500px) {
+    .fixedcard {
+        margin-left: 8px !important;
+
+    }
+
+    .learnDrawing {
+        font-size: 9px !important;
+        margin-bottom: 0 !important;
+
+    }
+
+    .egyPound {
+        font-size: 9px !important;
+    }
+
+    .oldPrice {
+        font-size:8.5px !important;
+    }
+
+    .egyPound2 {
+        font-size: 7px !important;
+    }
+
+    .addToCartBtn {
+        //  font-size: 7.5px !important;
+        padding: 8px 10px 8px 5px !important;
+
+    }
+
+    .addToCartText {
+        display: none;
+    }
+
+    .btnsContainer {
+        margin-left: 2px;
+    }
+
+    .heartIconBtn {
+        margin-right: 7px;
+        width: fit-content;
+        min-width: fit-content;
+        padding: 10px !important;
+
+    }
+
+    .shareIconBtn {
+        margin-right: 5px !important;
+        width: fit-content;
+        min-width: auto;
+        padding: 10px !important;
+
+    }
+
+    .cartIcon {
+        font-size: 10px !important;
+        margin-right: 1px;
+
+    }
+
+    .heartIcon {
+        font-size: 10px !important;
+
+    }
+
+    .shareIcon {
+        font-size: 10px !important;
+
+    }
+
+    .greenAlert {
+        display: none !important;
+    }
+
+    .verificationIcon {
+        font-size: 12px !important;
+        margin-right: -3px !important;
+    }
+
+    .rulesContainers {
+        display: none !important;
+
+    }
+
+    .redAlert {
+        display: none !important;
+
+    }
+
+    .millionLearners {
+        font-size: 8px !important;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .enterCoponContainer {
+        display: none !important;
+
+    }
+}
+
+@media (max-width:402px) {
+     .fixedcard {
+         margin-left: 5px !important;
+
+     }
+     .discount{
+         display: block;
+     }
+
+     .learnDrawing {
+         font-size: 9px !important;
+         margin-bottom: 0 !important;
+
+     }
+
+     .egyPound {
+         font-size: 9px !important;
+     }
+
+     .oldPrice {
+         font-size: 8px !important;
+     }
+
+     .egyPound2 {
+         font-size: 7px !important;
+     }
+
+     .addToCartBtn {
+         //  font-size: 7.5px !important;
+         padding:8px 8px 8px 3px !important;
+
+     }
+
+     .addToCartText {
+         display: none;
+     }
+
+
+     .heartIconBtn {
+         margin-right: 7px;
+         width: fit-content;
+         min-width: fit-content;
+         padding: 9px !important;
+
+     }
+
+     .shareIconBtn {
+         margin-right: 5px !important;
+         width: fit-content;
+         min-width: auto;
+         padding: 9px !important;
+
+     }
+
+     .cartIcon {
+         font-size: 9px !important;
+         margin-right: 1px;
+
+     }
+
+     .heartIcon {
+         font-size: 9px !important;
+
+     }
+
+     .shareIcon {
+         font-size: 9px !important;
+
+     }
+
+     .greenAlert {
+         display: none !important;
+     }
+
+     .verificationIcon {
+         font-size: 12px !important;
+         margin-right: -3px !important;
+     }
+
+     .rulesContainers {
+         display: none !important;
+
+     }
+
+     .redAlert {
+         display: none !important;
+
+     }
+
+     .millionLearners {
+         font-size: 8px !important;
+         margin-left: 3px;
+         margin-right: 3px;
+     }
+
+     .enterCoponContainer {
+         display: none !important;
+
+     }
+}

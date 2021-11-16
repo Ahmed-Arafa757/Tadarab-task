@@ -1,0 +1,5840 @@
+.breadCrumbs {
+  font-size: 11px;
+  direction: rtl;
+  font-weight: bold;
+  margin-top: 2rem;
+  width: 15px;
+  display: flex;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.cHIP {
+  margin-left: 2px !important;
+}
+
+.addIcon {
+  font-size: 30px;
+  color: #AF151F;
+}
+
+.imageContainer {
+  position: relative;
+  width: 80%;
+  margin-top: 20px;
+  direction: rtl;
+  float: right;
+}
+.imageContainer:hover .middle {
+  opacity: 1;
+}
+.imageContainer:hover .text {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.imageContainer .coverImage {
+  cursor: pointer;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: all 2s ease;
+  border-radius: 15px;
+  box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+}
+.imageContainer .middle {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  transition: all 2s ease;
+}
+.imageContainer .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #FFF;
+  border-radius: 15px;
+  transition: all 2s ease;
+}
+.imageContainer .playIcon {
+  font-size: 50px;
+}
+.imageContainer .watchAd {
+  font-size: 12px;
+}
+
+.whatYouLearnCard {
+  margin-top: 4rem;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: none;
+}
+.whatYouLearnCard .whatYouLearn {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.whatYouLearnCard .whatYouLearn .doneIcon {
+  font-size: 20px;
+}
+
+.whatYouLearnText {
+  font-weight: bold;
+}
+
+.showMore {
+  margin-right: 2rem;
+  display: flex;
+  justify-content: start;
+  direction: rtl;
+  font-size: 13px;
+  color: #AF151F;
+  font-weight: bold;
+}
+
+.expandMoreIcon {
+  color: #AF151F;
+}
+
+.courseDetailsCard {
+  margin-top: 3rem;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: none;
+}
+.courseDetailsCard .courseDetailsText {
+  font-weight: bold;
+}
+.courseDetailsCard .courseDetailsSummary {
+  font-size: 13px;
+  margin-top: 2rem;
+}
+.courseDetailsCard .summaryRest {
+  font-size: 13px;
+}
+
+.courseTagsCard {
+  margin-top: 4rem;
+  box-shadow: none;
+}
+.courseTagsCard .stack {
+  direction: rtl;
+  margin-top: 2rem;
+}
+.courseTagsCard .stack .MuiChip-label {
+  font-size: 12px;
+}
+
+.midLevelCard {
+  margin-top: 4rem;
+  border: 1px solid lightgrey;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.midLevelCard .midLevelAlert {
+  background-color: #F9E8E9;
+  font-size: 14px;
+  color: #AF151F;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.midLevelCard .levelIcon {
+  font-size: 20px;
+  color: #AF151F;
+}
+.midLevelCard .midLevelText {
+  font-size: 15px;
+  font-weight: bold;
+}
+.midLevelCard .courseRequirementText {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  font-size: 17px;
+  font-weight: bold;
+}
+.midLevelCard .courseRequirementsBox {
+  font-size: 13px;
+  margin-right: 2rem;
+}
+.midLevelCard .courseRequirementsBox .courseRequirements {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+  font-size: 12px;
+  margin-left: 1rem;
+}
+
+.trainingCourseCard {
+  margin-top: 4rem;
+  box-shadow: none;
+}
+.trainingCourseCard .trainingCourseDuration {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+  font-size: 23px;
+  margin-right: 1rem;
+}
+
+.accordionBody {
+  background-color: white;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+.accordionBody .expandMoreIcon {
+  color: #C1121F;
+}
+.accordionBody .accordionDetailsOuterBox {
+  font-size: 12px;
+  font-weight: bold;
+}
+.accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  margin-top: 4rem;
+  border-bottom: 1px solid lightgrey;
+}
+.accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+  font-size: 35px;
+  margin-left: 1rem;
+  color: #C1121F;
+}
+.accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+  margin-right: 1rem;
+  font-size: 19px;
+  margin-left: 1rem;
+  color: #C1121F;
+}
+.accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+  margin-right: 1rem;
+  font-size: 18px;
+  margin-left: 1rem;
+  color: lightgray;
+}
+
+.accordionBoldText {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.accordionNormalText {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.trainerInfoBox {
+  margin-top: 4rem;
+  box-shadow: none;
+}
+.trainerInfoBox .profilePic {
+  width: 70px;
+}
+.trainerInfoBox .trainerName {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 13px;
+  font-weight: 800;
+}
+.trainerInfoBox .trainerName .trainerRole {
+  font-size: 10px;
+  font-weight: bold;
+}
+.trainerInfoBox .trainerName .coursesNumberBox {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+  font-size: 17px;
+}
+.trainerInfoBox .trainerInfo {
+  font-size: 13px;
+  margin-top: 1rem;
+}
+.trainerInfoBox .previewTrainerProfile {
+  color: #AF151F;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+  font-size: 20px;
+  color: #AF151F;
+}
+
+.greenAlert {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #E8F3EE;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+.greenAlert .returnMoneyBox {
+  margin-right: 2rem;
+}
+.greenAlert .returnMoneyBox .returnMoney {
+  font-size: 14px;
+}
+
+.verificationIcon {
+  font-size: 28px;
+}
+
+.certfNormalText {
+  margin-right: 2rem;
+  margin-top: 4rem;
+  font-size: 16px;
+}
+
+.certfBoldText {
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.certf {
+  width: 550px;
+}
+
+.popQuestions {
+  margin-right: 2rem;
+  margin-top: 5rem;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.secondAccordionBody {
+  margin-top: 0.8rem;
+  border-radius: 10px;
+  direction: ltr;
+  background-color: white;
+  box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+.secondAccordionBody .secondAccordionTitle {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.secondAccordionBody .secondAccordionDetails {
+  font-size: 12px;
+  direction: rtl;
+}
+
+.questions {
+  margin-right: 2rem;
+  margin-top: 3rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.questions .contactUs {
+  margin-right: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 14px;
+  font-weight: bold;
+  color: #AF151F;
+}
+
+.redPortion {
+  background-color: #F9E8E9;
+  border-radius: 10px;
+  margin-top: 4rem;
+}
+.redPortion .giftBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9E8E9;
+  border-radius: 10px;
+  color: #AF151F;
+  margin-right: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.redPortion .giftBox .giftIcon {
+  font-size: 35px;
+  color: #AF151F;
+}
+.redPortion .whitePortion {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.redPortion .whitePortion .whitePortionCard {
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px;
+}
+.redPortion .whitePortion .whitePortionCard .MuiCardContent-root {
+  padding: 0;
+}
+.redPortion .whitePortion .whitePortionCard .whitePortionBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+  width: 50%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.courseCardsBox {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F3F3F3;
+}
+.courseCardsBox .courseCardsImg {
+  width: 50px;
+}
+.courseCardsBox .courseCardsTitle {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+.courseCardsBox .courseCardsTitle .courseCardsTrainer {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.ratingBox {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.ratingBox .rating {
+  margin-left: 1rem;
+  margin-right: 0.8rem;
+  font-size: 12px;
+  font-weight: 800;
+}
+.ratingBox .ratingIcons {
+  font-size: 14px;
+  color: #FFA120;
+}
+.ratingBox .ratingIconsGray {
+  font-size: 14px;
+  color: lightgrey;
+}
+.ratingBox .totalRating {
+  font-size: 12px;
+  margin-right: 1rem;
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 1rem;
+}
+
+.egPound {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.oldPriceBox {
+  margin-right: 1rem;
+}
+.oldPriceBox .oldPrice {
+  color: #777777;
+  font-weight: bold;
+  font-size: 11px;
+  -webkit-text-decoration: line-through #C1121F;
+          text-decoration: line-through #C1121F;
+}
+.oldPriceBox .oldPrice .oldPriceEgPound {
+  color: #777777;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 1px;
+}
+.oldPriceBox .priceDiscount {
+  color: #777777;
+  font-weight: bold;
+  font-size: 9px;
+  margin-right: 2px;
+}
+
+.totalPrice {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 1rem;
+}
+
+.totalPriceCurrency {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 1rem;
+}
+
+.oldTotalPriceBox {
+  -webkit-text-decoration: line-through #C1121F;
+          text-decoration: line-through #C1121F;
+  margin-right: 1rem;
+}
+.oldTotalPriceBox .oldTotalPriceCurrency {
+  color: #777777;
+  font-weight: bold;
+  font-size: 15px;
+}
+.oldTotalPriceBox .oldTotalPrice {
+  color: #777777;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.youWillSave {
+  color: #777777;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 1rem;
+}
+
+.timerBox {
+  margin-top: 1.8rem;
+  color: #AF151F;
+}
+.timerBox .offerAvailableAt {
+  margin-left: 1rem;
+  font-size: 11px;
+  font-weight: bold;
+}
+.timerBox .timer {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.getTheOfferBtn {
+  font-size: 12px;
+  width: 70%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background-color: #C1121F;
+  color: white;
+  border-radius: 8px;
+}
+.getTheOfferBtn:hover {
+  background-color: #C1121F;
+}
+
+.cartIcon {
+  font-size: 18px;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .breadCrumbs {
+    font-size: 11px;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 50px;
+  }
+  .imageContainer .watchAd {
+    font-size: 12px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 4rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 20px;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+  }
+
+  .showMore {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 13px;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+  }
+
+  .courseDetailsCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 13px;
+    margin-top: 2rem;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 13px;
+  }
+
+  .courseTagsCard {
+    margin-top: 3.5rem !important;
+    box-shadow: none;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 1.2rem !important;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 11px !important;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 12px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 18px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 12px;
+    margin-right: 2rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 11px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 4rem;
+    box-shadow: none;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 23px;
+    margin-right: 1rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 35px;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 1rem;
+    font-size: 19px;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 1rem;
+    font-size: 18px;
+    margin-left: 1rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .accordionNormalText {
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 70px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 17px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 13px;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 20px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 1.5rem;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 12px;
+  }
+
+  .verificationIcon {
+    font-size: 24px;
+  }
+
+  .certfNormalText {
+    margin-right: 2rem;
+    margin-top: 4rem;
+    font-size: 16px;
+  }
+
+  .certfBoldText {
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 550px;
+  }
+
+  .popQuestions {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 12px;
+    direction: rtl;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 3rem;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 1.5rem;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 32px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 40px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .ratingBox .rating {
+    margin-left: 1rem;
+    margin-right: 0.8rem;
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 12px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 12px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 10px;
+    margin-right: 1rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 1rem;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .oldPriceBox {
+    margin-right: 1rem;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 9px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 1px;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 8px;
+    margin-right: 2px;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 1rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 1rem;
+  }
+
+  .timerBox {
+    margin-top: 1.8rem;
+    color: #AF151F;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 11px;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 17px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 1100px) {
+  .breadCrumbs {
+    font-size: 11px;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 50px;
+  }
+  .imageContainer .watchAd {
+    font-size: 12px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 4rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 1.7rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 18px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    font-size: 1.15rem !important;
+  }
+
+  .showMore {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 12px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 19px !important;
+  }
+
+  .courseDetailsCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 12px !important;
+    margin-top: 1.8rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 12px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 3.5rem !important;
+    box-shadow: none;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 1.2rem !important;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 11px !important;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 12px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 18px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 11px;
+    margin-right: 2rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 1.3rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 10px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 4rem;
+    box-shadow: none;
+    font-size: 15px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 21px !important;
+    margin-right: 1rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 10px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 30px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 1rem;
+    font-size: 17px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 1rem;
+    font-size: 17px !important;
+    margin-left: 1rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 14px !important;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .accordionNormalText {
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 60px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 17px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 11px;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 18px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 1.5rem;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 11px;
+  }
+
+  .verificationIcon {
+    font-size: 24px;
+  }
+
+  .certfNormalText {
+    margin-right: 2rem;
+    margin-top: 4rem;
+    font-size: 14px;
+  }
+
+  .certfBoldText {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 480px;
+  }
+
+  .popQuestions {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 12px;
+    direction: rtl;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 3rem;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 12px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 1.2rem;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 30px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 40px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 7px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 9px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 11px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 11px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 9px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 1rem;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+  }
+
+  .oldPriceBox {
+    margin-right: 1rem;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 8px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 1px;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+    margin-right: 2px;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 0.2rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 1rem;
+  }
+
+  .timerBox {
+    margin-top: 1.8rem;
+    color: #AF151F;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 9px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 10px;
+    width: 70%;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 16px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 1000px) {
+  .breadCrumbs {
+    font-size: 10px !important;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 50px;
+  }
+  .imageContainer .watchAd {
+    font-size: 12px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 4rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 11px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 17px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    margin-top: 1rem !important;
+  }
+
+  .showMore {
+    margin-right: 1.4rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 11px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 18px !important;
+  }
+
+  .courseDetailsCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 11.5px !important;
+    margin-top: 1.4rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 11.5px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 3rem !important;
+    box-shadow: none;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 1rem !important;
+    font-size: 8px !important;
+  }
+  .courseTagsCard .stack .MuiChip-labelMedium,
+.courseTagsCard .stack .css-6od3lo-MuiChip-label,
+.courseTagsCard .stack .MuiChip-label,
+.courseTagsCard .stack .MuiChip-root {
+    font-size: 2px !important;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 11px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 16px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    font-size: 11px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 10px;
+    margin-right: 2rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 10px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 4rem;
+    box-shadow: none;
+    font-size: 13px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 19px !important;
+    margin-right: 0.4rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 9px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 27px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 1rem;
+    font-size: 16px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 1rem;
+    font-size: 16px !important;
+    margin-left: 1rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    font-size: 12px !important;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .accordionNormalText {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 50px;
+    margin-top: 12px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 11px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 15px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 16px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 1rem;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 10px;
+  }
+
+  .verificationIcon {
+    font-size: 20px;
+  }
+
+  .certfNormalText {
+    margin-right: 1.5rem;
+    margin-top: 4rem;
+    font-size: 13px;
+  }
+
+  .certfBoldText {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 450px;
+  }
+
+  .popQuestions {
+    margin-right: 2rem;
+    margin-top: 4rem;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 12px;
+    direction: rtl;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 3rem;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 11px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 28px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 35px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 6px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 8px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 10px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 10px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 8px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 1rem;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 8px;
+    margin-right: 0.2rem;
+  }
+
+  .oldPriceBox {
+    margin-right: 1rem;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 6px;
+    line-height: 1px;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 6px;
+    margin-right: 2px;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 0.2rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 1rem;
+  }
+
+  .timerBox {
+    margin-top: 1.6rem;
+    color: #AF151F;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 8px;
+    width: 70%;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .breadCrumbs {
+    font-size: 9px !important;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 50px;
+  }
+  .imageContainer .watchAd {
+    font-size: 12px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 4rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 11px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 17px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    margin-top: 0.8rem !important;
+    font-size: 17px !important;
+  }
+
+  .showMore {
+    margin-right: 1.4rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 11px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 18px !important;
+  }
+
+  .courseDetailsCard {
+    margin-top: 2.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 11px !important;
+    margin-top: 1.4rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 11px !important;
+  }
+
+  .cHIP {
+    font-size: 10px !important;
+    margin-left: 2px !important;
+  }
+
+  .MuiStack-root {
+    margin-left: 0px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 4rem;
+    box-shadow: none;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 2rem;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 12px;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 11px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 16px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 11px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 10px;
+    margin-right: 1.5rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 10px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 4rem;
+    box-shadow: none;
+    font-size: 13px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 19px !important;
+    margin-right: 0.4rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 9px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 27px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 1rem;
+    font-size: 16px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 1rem;
+    font-size: 16px !important;
+    margin-left: 1rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    font-size: 12px !important;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .accordionNormalText {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 50px;
+    margin-top: 12px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 11px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 15px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 16px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 1rem;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 10px;
+  }
+
+  .verificationIcon {
+    font-size: 20px;
+  }
+
+  .certfNormalText {
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    font-size: 12px;
+  }
+
+  .certfBoldText {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 425px;
+  }
+
+  .popQuestions {
+    margin-right: 2rem;
+    margin-top: 4rem;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 12px;
+    direction: rtl;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 10px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 0.9rem;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 26px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 0.9rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 30px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 0.2rem;
+    margin-right: 0.8rem;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 0.7rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 7px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 9px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 9px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 7px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 1rem;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 7px;
+    margin-right: 0.2rem;
+  }
+
+  .oldPriceBox {
+    margin-right: 0.8rem;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 6px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    line-height: 1px;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    margin-right: 1.5px;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 1rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 9px;
+    margin-right: 1rem;
+  }
+
+  .timerBox {
+    margin-top: 1.3rem;
+    color: #AF151F;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 7px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 7px;
+    width: 70%;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 13px;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .breadCrumbs {
+    font-size: 8.5px !important;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 80%;
+    margin-top: 20px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 50px;
+  }
+  .imageContainer .watchAd {
+    font-size: 12px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 4rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 10px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 15px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    margin-top: 0.7rem !important;
+    font-size: 16px !important;
+  }
+
+  .showMore {
+    margin-right: 1.4rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 10px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 14px !important;
+    margin-right: 0;
+  }
+
+  .courseDetailsCard {
+    margin-top: 2.5rem !important;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 10px !important;
+    margin-top: 1.4rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 10px !important;
+  }
+
+  .cHIP {
+    font-size: 8px !important;
+    margin-left: 2px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 1rem !important;
+    box-shadow: none;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 2rem;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 12px;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 11px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 14px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 11px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 10px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 10px;
+    margin-right: 1.5rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 10px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 4rem;
+    box-shadow: none;
+    font-size: 12px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 11px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 19px !important;
+    margin-right: 0.4rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 9px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 24px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 1rem;
+    font-size: 16px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 1rem;
+    font-size: 16px !important;
+    margin-left: 1rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    font-size: 10px !important;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .accordionNormalText {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 50px;
+    margin-top: 12px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 15px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 9px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 12px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 1rem;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 9px;
+  }
+
+  .verificationIcon {
+    font-size: 18px;
+  }
+
+  .certfNormalText {
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    font-size: 11px;
+  }
+
+  .certfBoldText {
+    margin-right: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 380px;
+  }
+
+  .popQuestions {
+    margin-right: 2rem;
+    margin-top: 4rem;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 7px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 10px;
+    direction: rtl;
+  }
+  .secondAccordionBody .expandAcc2 {
+    font-size: 19px;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 9px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 0.9rem;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 23px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 0.7rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 30px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+    font-size: 6px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    font-size: 7px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 9px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 9px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 6px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+    margin-right: 1rem;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 6px;
+    margin-right: 0.2rem;
+  }
+
+  .oldPriceBox {
+    margin-right: 0.8rem;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    line-height: 1px;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 4px;
+    margin-right: 1.5px;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 0.2rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 8px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+    margin-right: 1rem;
+    margin-top: 0;
+  }
+
+  .timerBox {
+    margin-top: 1.3rem;
+    color: #AF151F;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 7px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 6px;
+    width: 70%;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+
+  .addIcon {
+    font-size: 27px;
+    color: #AF151F;
+  }
+}
+@media (max-width: 700px) {
+  .currentPriceBox {
+    display: flex;
+  }
+
+  .breadCrumbs {
+    font-size: 9px !important;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 90%;
+    margin-top: 20px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 40px;
+  }
+  .imageContainer .watchAd {
+    font-size: 11px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 4rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 9px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 14px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    margin-top: 0.6rem !important;
+    font-size: 15px !important;
+  }
+
+  .showMore {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 9px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 13px !important;
+    margin-right: 0;
+  }
+
+  .courseDetailsCard {
+    margin-top: 2.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 9px !important;
+    margin-top: 1rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 9px !important;
+  }
+
+  .cHIP {
+    font-size: 8px !important;
+    margin-left: 2px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 1rem !important;
+    box-shadow: none;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 2rem;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 12px;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 11px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 14px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 11px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 10px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 8px;
+    margin-right: 1.5rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 8px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 3rem;
+    box-shadow: none;
+    font-size: 10px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 9px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 17px !important;
+    margin-right: 0.4rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 8px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.7rem;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 21px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-size: 8px !important;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 1rem;
+    font-size: 12px !important;
+    margin-left: 0.5rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 1rem;
+    font-size: 12px !important;
+    margin-left: 0.5rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 0.5rem;
+    margin-right: 0rem;
+    font-size: 8px !important;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .accordionNormalText {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 50px;
+    margin-top: 12px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 15px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 9px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 12px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 1rem;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 9px;
+  }
+
+  .verificationIcon {
+    font-size: 18px;
+  }
+
+  .certfNormalText {
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    font-size: 10px;
+  }
+
+  .certfBoldText {
+    margin-right: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 350px;
+  }
+
+  .popQuestions {
+    margin-right: 2rem;
+    margin-top: 3rem;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 10px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 9px;
+    direction: rtl;
+  }
+  .secondAccordionBody .expandAcc2 {
+    font-size: 18px;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 8px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 0.9rem;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 23px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 0.4rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 30px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+    font-size: 6px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    font-size: 7px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 9px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 9px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 6px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 7px;
+    margin-right: 1rem;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 5px;
+    margin-right: 0.2rem;
+  }
+
+  .oldPriceBox {
+    margin-right: 0.8rem;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    line-height: 1px;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    margin-right: 1.5px;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 0.2rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 8px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 9px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 8px;
+    margin-right: 1rem;
+  }
+
+  .timerBox {
+    margin-top: 1.3rem;
+    color: #AF151F;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 7px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 6px;
+    width: 80%;
+    margin-top: 0.9rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+
+  .addIcon {
+    font-size: 24px;
+    color: #AF151F;
+  }
+}
+@media (max-width: 600px) {
+  .currentPriceBox {
+    display: flex;
+  }
+
+  .breadCrumbs {
+    font-size: 8.5px !important;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 90%;
+    margin-top: 20px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 35px;
+  }
+  .imageContainer .watchAd {
+    font-size: 10px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 8px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 12px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    margin-top: 0.4rem !important;
+    font-size: 14px !important;
+  }
+
+  .showMore {
+    margin-right: 0.8rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 8px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 12px !important;
+    margin-right: 0;
+  }
+
+  .showMoreBox {
+    padding-bottom: 15px;
+  }
+
+  .courseDetailsCard {
+    margin-top: 2.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+    margin-top: 0.4rem !important;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 8px !important;
+    margin-top: 0.8rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 8px !important;
+  }
+
+  .cHIP {
+    font-size: 6px !important;
+    margin-left: 2px !important;
+    padding: 0px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 1rem !important;
+    box-shadow: none;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 2rem;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 12px;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 10px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 12px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 11px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 9px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 8px;
+    margin-right: 1.5rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 8px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 2rem;
+    box-shadow: none;
+    font-size: 10px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 8px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 15px !important;
+    margin-right: 0.2rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 7px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 19px !important;
+    margin-left: 1rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    font-size: 7px !important;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 0.5rem;
+    font-size: 9px !important;
+    margin-left: 0.5rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 0.5rem;
+    font-size: 9px !important;
+    margin-left: 0.5rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 0.2rem;
+    margin-right: -0.3rem;
+    font-size: 8px !important;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .accordionNormalText {
+    font-size: 7px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 40px;
+    margin-top: 14px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 0.4rem;
+    font-size: 8px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 13px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 8px;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 10px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 8px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 1rem;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 8px;
+  }
+
+  .verificationIcon {
+    font-size: 16px;
+  }
+
+  .certfNormalText {
+    margin-right: 1.5rem;
+    margin-top: 1.6rem;
+    font-size: 9px;
+  }
+
+  .certfBoldText {
+    margin-right: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: black;
+    font-size: 9px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 280px;
+  }
+
+  .popQuestions {
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    color: black;
+    font-size: 9px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 9px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 8px;
+    direction: rtl;
+  }
+  .secondAccordionBody .expandAcc2 {
+    font-size: 17px;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 7px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 0.9rem;
+    font-size: 9px;
+    font-weight: bold;
+    padding-top: 0.8rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 19px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 0.4rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-bottom: 0;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 25px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+    font-size: 5px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: none;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    font-size: 7px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 9px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 9px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 6px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 6px;
+    margin-right: 1rem;
+    align-self: flex-start;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 5px;
+    margin-right: 0.2rem;
+    align-self: flex-start;
+  }
+
+  .oldPriceBox {
+    margin-right: 0.8rem;
+    align-self: flex-start;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    align-self: flex-start;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    line-height: 1px;
+    align-self: flex-start;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    margin-right: 1.5px;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 0.2rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 7px;
+    margin-right: 1rem;
+    margin-top: 0;
+  }
+
+  .timerBox {
+    margin-top: 1.3rem;
+    color: #AF151F;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 6px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 6px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 5px;
+    width: 80%;
+    margin-top: 0.9rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 10px;
+    margin-left: 1rem;
+    display: none;
+  }
+
+  .addIcon {
+    font-size: 22px;
+    color: #AF151F;
+  }
+}
+@media (max-width: 500px) {
+  .breadCrumbs {
+    font-size: 7px !important;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-right: 5px;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 90%;
+    margin-top: 15px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 30px;
+  }
+  .imageContainer .watchAd {
+    font-size: 9px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 7px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 10px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    margin-top: 0.3rem !important;
+    font-size: 13px !important;
+  }
+
+  .showMore {
+    margin-right: 0.4rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 7px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 11px !important;
+    margin-right: 0;
+  }
+
+  .showMoreBox {
+    padding-bottom: 11px;
+  }
+
+  .courseDetailsCard {
+    margin-top: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+    margin-top: 0.2rem !important;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 7px !important;
+    margin-top: 0.6rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 7px !important;
+  }
+
+  .cHIP {
+    font-size: 6px !important;
+    margin-left: 0px !important;
+    padding: 0px 1px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 1rem !important;
+    box-shadow: none;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 2rem;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 12px;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 10px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 12px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 9px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 8px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 7px;
+    margin-right: 1.5rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 7px;
+    margin-left: 1rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 2rem;
+    box-shadow: none;
+    font-size: 10px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 6px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 12px !important;
+    margin-right: 0.2rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 7px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 15px !important;
+    margin-left: 0.3rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    font-size: 6px !important;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 0.5rem;
+    font-size: 7px !important;
+    margin-left: 0.3rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 0.5rem;
+    font-size: 7px !important;
+    margin-left: 0.5rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    font-size: 6px !important;
+    font-weight: bold;
+    margin-bottom: 0rem;
+  }
+
+  .accordionNormalText {
+    font-size: 6px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 30px;
+    margin-top: 16px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 0.4rem;
+    font-size: 6px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 5px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 11px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 6px;
+    margin-top: 0.5rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 7px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 8px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 6px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0.8rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 0.8em;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 6px;
+  }
+
+  .verificationIcon {
+    font-size: 14px;
+  }
+
+  .certfNormalText {
+    margin-right: 1.5rem;
+    margin-top: 1.6rem;
+    font-size: 8px;
+  }
+
+  .certfBoldText {
+    margin-right: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 220px;
+  }
+
+  .popQuestions {
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 9px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 8px;
+    font-weight: bold;
+    padding: 1px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 7px;
+    direction: rtl;
+  }
+  .secondAccordionBody .expandAcc2 {
+    font-size: 16px;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    font-size: 6px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 6px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 0.6rem;
+    font-size: 8px;
+    font-weight: bold;
+    padding-top: 2rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 16px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 0.4rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-bottom: 0;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 15px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+    font-size: 3px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 3px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: none;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    font-size: 6px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 7px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 7px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 5px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 4px;
+    margin-right: 1rem;
+    align-self: flex-start;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 3px;
+    margin-right: 0.2rem;
+    align-self: flex-start;
+  }
+
+  .oldPriceBox {
+    margin-right: 0.8rem;
+    display: flex;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 4px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    align-self: flex-start;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 4px;
+    line-height: 1px;
+    align-self: flex-start;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 3px;
+    margin-right: 1.5px;
+    align-self: flex-start;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 8px;
+    margin-right: 0.2rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    margin-right: 1rem;
+    margin-top: 0;
+  }
+
+  .timerBox {
+    margin-top: 1.3rem;
+    color: #AF151F;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 5px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 5px;
+    width: 80%;
+    margin-top: 0.9rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 10px;
+    margin-left: 1rem;
+    display: none;
+  }
+
+  .addIcon {
+    font-size: 18px;
+    color: #AF151F;
+  }
+
+  .currentPriceBox {
+    display: flex;
+  }
+}
+@media (max-width: 400px) {
+  .currentPriceBox {
+    display: flex;
+  }
+
+  .breadCrumbs {
+    font-size: 6px !important;
+    direction: rtl;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-right: 5px;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 90%;
+    margin-top: 12px;
+    direction: rtl;
+    float: right;
+  }
+  .imageContainer:hover .middle {
+    opacity: 1;
+  }
+  .imageContainer:hover .text {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .imageContainer .coverImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 2s ease;
+    border-radius: 15px;
+    box-shadow: 2px 1px 10px 2px rgba(0, 0, 0, 0.4);
+  }
+  .imageContainer .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 2s ease;
+  }
+  .imageContainer .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    border-radius: 15px;
+    transition: all 2s ease;
+  }
+  .imageContainer .playIcon {
+    font-size: 25px;
+  }
+  .imageContainer .watchAd {
+    font-size: 8px;
+  }
+
+  .whatYouLearnCard {
+    margin-top: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+    padding-bottom: 12px !important;
+  }
+  .whatYouLearnCard .whatYouLearn {
+    font-size: 6px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+  }
+  .whatYouLearnCard .whatYouLearn .doneIcon {
+    font-size: 9px !important;
+  }
+
+  .whatYouLearnText {
+    font-weight: bold;
+    margin-top: 0.8rem !important;
+    font-size: 11px !important;
+  }
+
+  .showMore {
+    margin-right: 0.2rem;
+    display: flex;
+    justify-content: start;
+    direction: rtl;
+    font-size: 7px !important;
+    color: #AF151F;
+    font-weight: bold;
+  }
+
+  .expandMoreIcon {
+    color: #AF151F;
+    font-size: 10px !important;
+    margin-right: 0;
+  }
+
+  .showMoreBox {
+    padding-bottom: 11px;
+  }
+
+  .courseDetailsCard {
+    margin-top: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .courseDetailsCard .courseDetailsText {
+    font-weight: bold;
+    margin-top: 0.2rem !important;
+  }
+  .courseDetailsCard .courseDetailsSummary {
+    font-size: 6px !important;
+    margin-top: 0.4rem !important;
+  }
+  .courseDetailsCard .summaryRest {
+    font-size: 6px !important;
+  }
+
+  .cHIP {
+    font-size: 4px !important;
+    margin-left: 0px !important;
+    padding: 0px !important;
+  }
+
+  .courseTagsCard {
+    margin-top: 1rem !important;
+    box-shadow: none;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .courseTagsCard .stack {
+    direction: rtl;
+    margin-top: 2rem;
+  }
+  .courseTagsCard .stack .MuiChip-label {
+    font-size: 12px;
+  }
+
+  .midLevelCard {
+    margin-top: 3rem;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  .midLevelCard .midLevelAlert {
+    background-color: #F9E8E9;
+    font-size: 10px !important;
+    color: #AF151F;
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+  }
+  .midLevelCard .levelIcon {
+    font-size: 11px !important;
+    color: #AF151F;
+  }
+  .midLevelCard .midLevelText {
+    font-size: 8px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementText {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 7px !important;
+    font-weight: bold;
+  }
+  .midLevelCard .courseRequirementsBox {
+    font-size: 6px;
+    margin-right: 1.5rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements {
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+  }
+  .midLevelCard .courseRequirementsBox .courseRequirements .bulletIcon {
+    font-size: 6px;
+    margin-left: 0.8rem;
+  }
+
+  .trainingCourseCard {
+    margin-top: 2rem;
+    box-shadow: none;
+    font-size: 10px !important;
+  }
+  .trainingCourseCard .trainingCourseDuration {
+    font-size: 6px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .trainingCourseCard .trainingCourseDuration .trainingCourseDurationIcons {
+    font-size: 12px !important;
+    margin-right: 0.2rem;
+  }
+
+  .accordionBody {
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem;
+  }
+  .accordionBody .expandMoreIcon {
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox {
+    font-size: 7px !important;
+    font-weight: bold;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    border-bottom: 1px solid lightgrey;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .accPlayIcon {
+    font-size: 12px !important;
+    margin-left: 0.3rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    font-size: 4.2px !important;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIcon {
+    margin-right: 0.5rem;
+    font-size: 6px !important;
+    margin-left: 0.3rem;
+    color: #C1121F;
+  }
+  .accordionBody .accordionDetailsOuterBox .accordionDetailsInnerBox .watchFreeBox .watchFreeIconLocked {
+    margin-right: 0.5rem;
+    font-size: 6px !important;
+    margin-left: 0.5rem;
+    color: lightgray;
+  }
+
+  .accordionBoldText {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    font-size: 5px !important;
+    font-weight: bold;
+    margin-bottom: 0rem;
+  }
+
+  .accordionNormalText {
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .trainerInfoBox {
+    margin-top: 0rem;
+    box-shadow: none;
+  }
+  .trainerInfoBox .profilePic {
+    width: 30px;
+    margin-top: 16px;
+  }
+  .trainerInfoBox .trainerName {
+    margin-top: 1rem;
+    margin-right: 0.4rem;
+    font-size: 6px;
+    font-weight: 800;
+  }
+  .trainerInfoBox .trainerName .trainerRole {
+    font-size: 5px;
+    font-weight: bold;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox {
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+  }
+  .trainerInfoBox .trainerName .coursesNumberBox .coursesNumberIcon {
+    font-size: 11px;
+  }
+  .trainerInfoBox .trainerInfo {
+    font-size: 6px;
+    margin-top: 0.5rem;
+  }
+  .trainerInfoBox .previewTrainerProfile {
+    color: #AF151F;
+    font-size: 6px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+  }
+  .trainerInfoBox .previewTrainerProfile .previewTrainerProfileIcon {
+    font-size: 7px;
+    color: #AF151F;
+  }
+
+  .greenAlert {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #E8F3EE;
+    font-size: 5px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0.6rem;
+  }
+  .greenAlert .returnMoneyBox {
+    margin-right: 0.8em;
+  }
+  .greenAlert .returnMoneyBox .returnMoney {
+    font-size: 5px;
+  }
+
+  .verificationIcon {
+    font-size: 11px;
+  }
+
+  .certfNormalText {
+    margin-right: 1.5rem;
+    margin-top: 1.6rem;
+    font-size: 8px;
+  }
+
+  .certfBoldText {
+    margin-right: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: black;
+    font-size: 7px;
+    font-weight: bold;
+  }
+
+  .certf {
+    width: 180px;
+  }
+
+  .popQuestions {
+    margin-right: 0.7rem;
+    margin-top: 1.5rem;
+    color: black;
+    font-size: 7px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .secondAccordionBody {
+    margin-top: 0.8rem;
+    border-radius: 9px;
+    direction: ltr;
+    background-color: white;
+    box-shadow: 2px 1px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  .secondAccordionBody .secondAccordionTitle {
+    font-size: 7px;
+    font-weight: bold;
+    padding: 0px;
+  }
+  .secondAccordionBody .secondAccordionDetails {
+    font-size: 6px;
+    direction: rtl;
+  }
+  .secondAccordionBody .expandAcc2 {
+    font-size: 15px;
+  }
+
+  .questions {
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+    font-size: 5px;
+    font-weight: bold;
+  }
+  .questions .contactUs {
+    margin-right: 0.1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 5px;
+    font-weight: bold;
+    color: #AF151F;
+  }
+
+  .redPortion {
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    margin-top: 4rem;
+  }
+  .redPortion .giftBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8E9;
+    border-radius: 10px;
+    color: #AF151F;
+    margin-right: 0.6rem;
+    font-size: 6px;
+    font-weight: bold;
+    padding-top: 0.5rem;
+  }
+  .redPortion .giftBox .giftIcon {
+    font-size: 13px;
+    color: #AF151F;
+  }
+  .redPortion .whitePortion {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .redPortion .whitePortion .whitePortionCard {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .redPortion .whitePortion .whitePortionCard .whitePortionBox .offerPics {
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .courseCardsBox {
+    margin-right: 0.4rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F3F3F3;
+    margin-bottom: 0;
+  }
+  .courseCardsBox .courseCardsImg {
+    width: 15px;
+  }
+  .courseCardsBox .courseCardsTitle {
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+    font-size: 3px;
+    font-weight: bold;
+  }
+  .courseCardsBox .courseCardsTitle .courseCardsTrainer {
+    font-size: 3px;
+    font-weight: bold;
+  }
+
+  .ratingBox {
+    display: none;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+  }
+  .ratingBox .rating {
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+    font-size: 6px;
+    font-weight: 800;
+  }
+  .ratingBox .ratingIcons {
+    font-size: 7px;
+    color: #FFA120;
+  }
+  .ratingBox .ratingIconsGray {
+    font-size: 7px;
+    color: lightgrey;
+  }
+  .ratingBox .totalRating {
+    font-size: 5px;
+    margin-right: 0.5rem;
+  }
+
+  .price {
+    color: black;
+    font-weight: bold;
+    font-size: 4px;
+    margin-right: 1rem;
+    align-self: flex-start;
+  }
+
+  .egPound {
+    color: black;
+    font-weight: bold;
+    font-size: 3px;
+    margin-right: 0.2rem;
+    align-self: flex-start;
+  }
+
+  .oldPriceBox {
+    margin-right: 0.8rem;
+    display: flex;
+  }
+  .oldPriceBox .oldPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 4px;
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    align-self: flex-start;
+  }
+  .oldPriceBox .oldPrice .oldPriceEgPound {
+    color: #777777;
+    font-weight: bold;
+    font-size: 4px;
+    line-height: 1px;
+    align-self: flex-start;
+  }
+  .oldPriceBox .priceDiscount {
+    color: #777777;
+    font-weight: bold;
+    font-size: 3px;
+    margin-right: 1.5px;
+    align-self: flex-start;
+  }
+
+  .totalPrice {
+    color: black;
+    font-weight: bold;
+    font-size: 6px;
+    margin-right: 1rem;
+  }
+
+  .totalPriceCurrency {
+    color: black;
+    font-weight: bold;
+    font-size: 6px;
+    margin-right: 0.2rem;
+  }
+
+  .oldTotalPriceBox {
+    -webkit-text-decoration: line-through #C1121F;
+            text-decoration: line-through #C1121F;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+  }
+  .oldTotalPriceBox .oldTotalPriceCurrency {
+    color: #777777;
+    font-weight: bold;
+    font-size: 4px;
+  }
+  .oldTotalPriceBox .oldTotalPrice {
+    color: #777777;
+    font-weight: bold;
+    font-size: 4px;
+  }
+
+  .youWillSave {
+    color: #777777;
+    font-weight: bold;
+    font-size: 5px;
+    margin-right: 1rem;
+    margin-top: 0;
+    display: none;
+  }
+
+  .timerBox {
+    margin-top: 1.3rem;
+    color: #AF151F;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .timerBox .offerAvailableAt {
+    margin-left: 1rem;
+    font-size: 4px;
+    font-weight: bold;
+  }
+  .timerBox .timer {
+    font-size: 4px;
+    font-weight: bold;
+  }
+
+  .getTheOfferBtn {
+    font-size: 4px;
+    width: 80%;
+    margin-top: 0.9rem;
+    margin-bottom: 3rem;
+    background-color: #C1121F;
+    color: white;
+    border-radius: 8px;
+  }
+  .getTheOfferBtn:hover {
+    background-color: #C1121F;
+  }
+
+  .cartIcon {
+    font-size: 10px;
+    margin-left: 1rem;
+    display: none;
+  }
+
+  .addIcon {
+    font-size: 18px;
+    color: #AF151F;
+  }
+
+  .currentPriceBox {
+    display: flex;
+  }
+}
+/*# sourceMappingURL=course-details.module.css.map */

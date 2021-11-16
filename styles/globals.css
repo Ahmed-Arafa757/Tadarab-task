@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: "Almarai", sans-serif !important;
+}
+
+[class^=number-slide],
+[class*=" number-slide"] {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 280px;
+  width: 80%;
+  margin-left: -17px;
+}
+
+.number-slide1 {
+  width: 50px;
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.arrow {
+  width: 20px;
+  height: 25px;
+  font-size: 20px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #000;
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 5px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 5px;
+}
+
+.arrow--disabled {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=globals.css.map */

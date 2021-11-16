@@ -1,0 +1,14 @@
+.gridBg {
+  background-color: white;
+}
+
+.shiftedGrid {
+  background-color: white;
+}
+
+@media (max-width: 900px) {
+  .shiftedGrid {
+    padding-right: 10px;
+  }
+}
+/*# sourceMappingURL=main.module.css.map */
